@@ -13,12 +13,16 @@ body {
 
 }
 
+.page-container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 
 
 
 .mag-wraper {
     background-image: url("../Frame_1/images/clouds.jpg");
-    background-size: 100%;
     height: 636px;
 }
 

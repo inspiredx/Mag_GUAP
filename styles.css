@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+
+}
+
+
+
+
+.mag-wraper {
+    background-image: url("../Frame_1/images/clouds.jpg");
+    background-size: 100%;
+    height: 636px;
+}
+
+.main-menu-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slogan-numbers-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slogan-number {
+    color: rgba(0, 90, 170, 1);
+    font-size: 48px;
+
+}
+
+.dtp-container {
+    display: flex;
+
+}
+
+.op-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ed-container {
+    display: flex;
+}
+
+.seo-list {
+    display: flex;
+}

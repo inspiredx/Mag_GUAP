@@ -69,6 +69,7 @@ body {
     display: flex;
     justify-content: space-around;
     min-width: 1184px;
+    margin-left: 118px;
     padding-bottom: 174px;
 }
 
@@ -104,8 +105,8 @@ body {
     min-height: 300px;
     overflow: hidden;
     background-image: url('./images/background/Rectangle-1.png');
-    
-    
+
+
 
 }
 
@@ -116,7 +117,19 @@ body {
     width: 1268px;
     height: 300px;
     white-space: nowrap;
-    margin-bottom: 174px;    
+    margin-bottom: 174px;
+    display: block;
+    margin-left: 120px;
 
 
+}
+
+.review {
+    display: flex;
+    text-overflow: ellipsis;
+}
+
+.review-texts {
+    width: 558px;
+    margin-left: 108px;
 }

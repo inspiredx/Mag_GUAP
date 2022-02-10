@@ -18,24 +18,25 @@ body {
     margin: 0 auto;
 }
 
-
-
-
 .mag-wraper {
-    background-image: url("../Frame_1/images/clouds.jpg");
+    background-image: url("./images/clouds.jpg");
     height: 636px;
 }
 
-.main-menu-list {
+.flexbox {
+    display: flex;
+
+}
+
+.flexbox-between {
     display: flex;
     justify-content: space-between;
 
 }
 
-.slogan-numbers-list {
-    display: flex;
-    justify-content: space-between;
 
+.banner-seo {
+    padding-bottom: 106px;
 }
 
 .slogan-number {
@@ -44,9 +45,8 @@ body {
 
 }
 
-.dtp-container {
-    display: flex;
-
+.op-info {
+    padding-bottom: 159px;
 }
 
 .op-container {
@@ -54,10 +54,69 @@ body {
     justify-content: space-around;
 }
 
-.ed-container {
-    display: flex;
+
+
+.info-item {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 54px;
+    align-items: center;
+
 }
 
-.seo-list {
+.add-info {
     display: flex;
+    justify-content: space-around;
+    min-width: 1184px;
+    padding-bottom: 174px;
+}
+
+
+
+/* Скролбар */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 90, 170, 1);
+}
+
+/*   */
+
+
+
+.op-item {
+    display: inline-block;
+    justify-content: space-around;
+    margin-right: 54px;
+    word-wrap: break-word;
+    max-width: 266px;
+    min-height: 300px;
+    overflow: hidden;
+    background-image: url('./images/background/Rectangle-1.png');
+    
+    
+
+}
+
+.op-list {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-color: red green;
+    width: 1268px;
+    height: 300px;
+    white-space: nowrap;
+    margin-bottom: 174px;    
+
+
 }

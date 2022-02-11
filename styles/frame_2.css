@@ -48,17 +48,61 @@
 
 }
 
+.groups-container {
+    margin: 0;
+}
+
 .special-item {
     display: inline;
 }
 
 .studies-container {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin-left: 88px;
 }
 
 .group-section-blue {
     background: #F4F8FF;
     margin-top: 52px;
     border-radius: 5px;
+}
+
+.group-section-yellow {
+    background: #FFF7EC;
+    margin-top: 52px;
+    border-radius: 5px;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-container {
+    margin-top: 34px;
+    /* сделать иначе? */
+}
+
+.special-gold-item {
+    background: rgba(255, 204, 24, 1);
+    min-width: 24px;
+    max-height: 36px;
+    
+}
+
+.button-group {
+    border: 1px solid #858585;
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none;
+    color: #000; /* Цвет текста */
+    border-radius: 40px;
+    
+}
+
+.button-container {
+    margin-top: 39px;
+    
+
 }

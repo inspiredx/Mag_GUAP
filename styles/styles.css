@@ -1,12 +1,20 @@
 @import url("./frame_2.css");
 @import url("./frame-3.css");
 
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+    font-display: swap;
+}
+
+
+
 html {
     height: 100%;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto";
     background-color: white;
     margin: 0;
     display: flex;
@@ -14,6 +22,16 @@ body {
     justify-content: center;
     min-height: 100%;
 
+}
+
+.main-menu {
+    font-size: 14px;
+    padding-top: 41px;
+    margin-left: 127px;
+}
+
+.page-article {
+    font-size: 30px;
 }
 
 .page-container {
@@ -24,6 +42,7 @@ body {
 .mag-wraper {
     background-image: url("../images/clouds.jpg");
     height: 636px;
+
 
 }
 
@@ -49,6 +68,11 @@ body {
     color: rgba(0, 90, 170, 1);
     font-size: 36px;
 
+}
+
+.slogan-block {
+    margin-left: 88px;
+    margin-top: 99px;
 }
 
 .op-info {

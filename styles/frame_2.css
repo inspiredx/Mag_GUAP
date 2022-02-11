@@ -12,9 +12,19 @@
     border-width: 0px;
 }
 
+.checkbox-title {
+    margin-left: 40px;
+}
+
+.checkbox-line {
+    margin-left: 40px;
+}
+
 .checkbox-list {
     list-style-type: none;
     margin-bottom: 77px;
+    font-size: 14px;
+    margin: 0;
 
 
 }
@@ -34,6 +44,7 @@
 
 /* Контейнеры с направлениями */
 
+
 .groups-article-container {
     display: flex;
     justify-content: space-around;
@@ -49,7 +60,8 @@
 }
 
 .groups-container {
-    margin: 0;
+    margin-left: 88px;
+
 }
 
 .special-item {
@@ -66,12 +78,19 @@
     background: #F4F8FF;
     margin-top: 52px;
     border-radius: 5px;
+    width: 791px;
+    box-sizing: border-box;
+    padding-right: 40px;
+
 }
 
 .group-section-yellow {
     background: #FFF7EC;
     margin-top: 52px;
     border-radius: 5px;
+    width: 791px;
+    box-sizing: border-box;
+    padding-right: 40px;
 }
 
 .rectangle-container {
@@ -79,8 +98,13 @@
     flex-direction: column;
 }
 
+.rectangle {
+    margin-top: 4px;
+}
+
 .checkbox-container {
     margin-top: 34px;
+    margin-left: 121px;
     /* сделать иначе? */
 }
 
@@ -88,21 +112,40 @@
     background: rgba(255, 204, 24, 1);
     min-width: 24px;
     max-height: 36px;
-    
+
 }
 
 .button-group {
     border: 1px solid #858585;
     display: inline-block;
-    padding: 5px 15px; /* Поля */
+    padding: 5px 15px;
+    /* Поля */
     text-decoration: none;
-    color: #000; /* Цвет текста */
+    color: #000;
+    /* Цвет текста */
     border-radius: 40px;
-    
+
+}
+
+.button-group-blue {
+    border: 1px solid #858585;
+    display: inline-block;
+    padding: 5px 15px;
+    /* Поля */
+    text-decoration: none;
+    color: #FFFFFF;
+    /* Цвет текста */
+    border-radius: 40px;
+    background: #005AAA;
+
+}
+
+.menu-button-container {
+    margin-right: 120px;
 }
 
 .button-container {
     margin-top: 39px;
-    
+
 
 }

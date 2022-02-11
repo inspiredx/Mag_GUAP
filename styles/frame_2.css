@@ -1,13 +1,13 @@
 .page-article {
     margin-left: 121px;
     padding-bottom: 99px;
-    font-weight: 500;
+
 }
 
 
 
 .checkbox {
-    
+
     width: 319px;
     border-width: 0px;
 }
@@ -15,10 +15,50 @@
 .checkbox-list {
     list-style-type: none;
     margin-bottom: 77px;
-    
+
 
 }
 
 .checkbox-item {
     margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-container {
+    display: inline-flex;
+    justify-content: space-around;
+    gap: 30px;
+    /* Gap заглушка - сделать отступы */
+}
+
+/* Контейнеры с направлениями */
+
+.groups-article-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.groups-item {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 57px;
+
+}
+
+.special-item {
+    display: inline;
+}
+
+.studies-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.group-section-blue {
+    background: #F4F8FF;
+    margin-top: 52px;
+    border-radius: 5px;
 }

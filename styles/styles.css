@@ -1,3 +1,5 @@
+@import url("./frame_2.css");
+
 html {
     height: 100%;
 }
@@ -19,7 +21,7 @@ body {
 }
 
 .mag-wraper {
-    background-image: url("./images/clouds.jpg");
+    background-image: url("../images/clouds.jpg");
     height: 636px;
 }
 

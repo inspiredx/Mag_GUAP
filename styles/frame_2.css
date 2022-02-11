@@ -1,23 +1,24 @@
 .page-article {
     margin-left: 121px;
     padding-bottom: 99px;
+    font-weight: 500;
 }
 
 
 
-.faculty-checkbox {
+.checkbox {
     
     width: 319px;
     border-width: 0px;
 }
 
-.faculty-checkbox-list {
+.checkbox-list {
     list-style-type: none;
     margin-bottom: 77px;
     
 
 }
 
-.faculty-checkbox-item {
+.checkbox-item {
     margin-bottom: 27px;
 }

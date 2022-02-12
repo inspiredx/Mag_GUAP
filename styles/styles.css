@@ -62,6 +62,12 @@ body {
 
 .banner-seo {
     padding-bottom: 106px;
+    margin-left: 80px;
+    /* сумма с отступом агента - переделать */
+}
+
+.seo-item {
+    margin-right: 100px;
 }
 
 .slogan-number {
@@ -77,6 +83,16 @@ body {
 
 .op-info {
     padding-bottom: 159px;
+    padding-top: 69px;
+    padding-left: 119px;
+    padding-right: 120px;
+    display: grid;
+    grid-template-columns: 377px 377px 377px;
+    grid-template-rows: 148px 148px 148px;
+}
+
+.info-img {
+    align-self: center;
 }
 
 .op-container {
@@ -87,6 +103,14 @@ body {
 
 .op-column {
     list-style-type: none;
+    margin: 0;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.opn-item {
+    margin: 0;
 }
 
 
@@ -100,11 +124,17 @@ body {
 
 }
 
+.info-list {
+    display: flex;
+    align-self: center;
+    padding-inline-start: 0;
+}
+
 .add-info {
     display: flex;
     justify-content: space-around;
     min-width: 1184px;
-    margin-left: 118px;
+    margin-left: 152px;
     padding-bottom: 174px;
 }
 
@@ -171,4 +201,10 @@ body {
 
 .ed-column {
     list-style-type: none;
+}
+
+.article-text {
+    margin: 80px 0 0 120px;
+    /* Сделать стили для каждого(?) заголовка */
+
 }

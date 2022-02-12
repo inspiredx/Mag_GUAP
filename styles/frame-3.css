@@ -33,6 +33,14 @@
   right: 10px;
 }
 
+.popup-open {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  /* сделать вес фонта */
+}
+
 /* Тело окна */
 
 .modal-date {
@@ -87,6 +95,10 @@
   margin-top: 0;
   font-size: 14px;
 
+}
+
+.group-code {
+  margin: auto;
 }
 
 .modal-institute-container {

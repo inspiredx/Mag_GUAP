@@ -50,6 +50,12 @@
     justify-content: space-around;
 
 
+
+}
+
+.group-article {
+    font-size: 30px;
+    margin: auto;
 }
 
 .groups-item {

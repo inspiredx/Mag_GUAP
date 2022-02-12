@@ -16,13 +16,12 @@
 
 .popup {
   position: fixed;
-  top: 20%;
-  left: 50%;
-  padding: 20px;
+  top: 13%;
+  left: 50.2%;
   width: 915px;
   margin-left: -200px;
   background: #fff;
-  border: 1px solid white;
+  border: none;
   border-radius: 4px;
   z-index: 99999;
   opacity: 1;
@@ -32,4 +31,78 @@
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+/* Тело окна */
+
+.modal-date {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-code {
+  margin: 0;
+}
+
+.popup-container {
+  width: 915px;
+  margin: 0 auto;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 76px;
+  margin-right: 105px;
+}
+
+.modal-groups-container {
+  margin-right: 105px;
+  margin-left: 76px;
+}
+
+.modal-institute {
+  background: linear-gradient(90.03deg, #005AAA -0.63%, #00BEF3 99.33%);
+  min-height: 181px;
+  margin: 0;
+}
+
+.modal-institute-caption {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 19px;
+
+
+}
+
+.p-medium {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.p-small {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 14px;
+
+}
+
+.modal-institute-container {
+  display: flex;
+  margin-left: 76px;
+  margin-right: 89px;
+  margin-top: 31px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-institute-img {
+  margin-right: 38px;
+  margin-top: 30px;
 }

@@ -1,210 +1,231 @@
+@charset "UTF-8";
 @import url("./frame_2.css");
 @import url("./frame-3.css");
-
 @font-face {
-    font-family: Roboto;
-    src: url("../fonts/Roboto.ttf");
-    font-display: swap;
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
+  font-display: swap;
 }
 
-
-
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    font-family: "Roboto";
-    background-color: white;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+  font-family: "Roboto";
+  background-color: white;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-menu {
-    font-size: 14px;
-    padding-top: 41px;
-    margin-left: 127px;
+  font-size: 14px;
+  padding-top: 41px;
+  margin-left: 127px;
 }
 
 .page-article {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .page-container {
-    width: 1440px;
-    margin: 0 auto;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .mag-wraper {
-    background-image: url("../images/clouds.jpg");
-    height: 636px;
-
-
+  background-image: url("../images/clouds.jpg");
+  height: 636px;
 }
 
 .flexbox {
-    display: flex;
-    list-style-type: none;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
 }
 
 .flexbox-between {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    flex-wrap: wrap;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-
 .banner-seo {
-    padding-bottom: 106px;
-    margin-left: 80px;
-    /* сумма с отступом агента - переделать */
+  padding-bottom: 106px;
+  margin-left: 80px;
+  /* сумма с отступом агента - переделать */
 }
 
 .seo-item {
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
 .slogan-number {
-    color: rgba(0, 90, 170, 1);
-    font-size: 36px;
-
+  color: #005aaa;
+  font-size: 36px;
 }
 
 .slogan-block {
-    margin-left: 88px;
-    margin-top: 99px;
+  margin-left: 88px;
+  margin-top: 99px;
 }
 
 .op-info {
-    padding-bottom: 159px;
-    padding-top: 69px;
-    padding-left: 119px;
-    padding-right: 120px;
-    display: grid;
-    grid-template-columns: 377px 377px 377px;
-    grid-template-rows: 148px 148px 148px;
+  padding-bottom: 159px;
+  padding-top: 69px;
+  padding-left: 119px;
+  padding-right: 120px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 377px 377px 377px;
+      grid-template-columns: 377px 377px 377px;
+  -ms-grid-rows: 148px 148px 148px;
+      grid-template-rows: 148px 148px 148px;
 }
 
 .info-img {
-    align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .op-container {
-    display: flex;
-    justify-content: space-around;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .op-column {
-    list-style-type: none;
-    margin: 0;
-    padding-inline-start: 0;
-    display: flex;
-    flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .opn-item {
-    margin: 0;
+  margin: 0;
 }
 
-
-
 .info-item {
-    display: inline-flex;
-    justify-content: space-around;
-    flex-direction: column;
-    margin-right: 54px;
-    align-items: center;
-
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 54px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .info-list {
-    display: flex;
-    align-self: center;
-    padding-inline-start: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 
 .add-info {
-    display: flex;
-    justify-content: space-around;
-    min-width: 1184px;
-    margin-left: 152px;
-    padding-bottom: 174px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-width: 1184px;
+  margin-left: 152px;
+  padding-bottom: 174px;
 }
 
-
-
 /* Скролбар */
-
 ::-webkit-scrollbar {
-    width: 12px;
-    height: 10px;
+  width: 12px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: rgba(0, 90, 170, 1);
+  border-radius: 10px;
+  background-color: #005aaa;
 }
 
 /*   */
-
-
-
 .op-item {
-    display: inline-block;
-    justify-content: space-around;
-    margin-right: 54px;
-    word-wrap: break-word;
-    max-width: 266px;
-    min-height: 300px;
-    overflow: hidden;
-    background-image: url('./images/background/Rectangle-1.png');
-
-
-
+  display: inline-block;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 54px;
+  word-wrap: break-word;
+  max-width: 266px;
+  min-height: 300px;
+  overflow: hidden;
+  background-image: url("./images/background/Rectangle-1.png");
 }
 
 .op-list {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scrollbar-color: red green;
-    width: 1268px;
-    height: 300px;
-    white-space: nowrap;
-    margin-bottom: 174px;
-    display: block;
-    margin-left: 120px;
-
-
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-color: red green;
+  width: 1268px;
+  height: 300px;
+  white-space: nowrap;
+  margin-bottom: 174px;
+  display: block;
+  margin-left: 120px;
 }
 
 .review {
-    display: flex;
-    text-overflow: ellipsis;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-overflow: ellipsis;
 }
 
 .review-texts {
-    width: 558px;
-    margin-left: 108px;
+  width: 558px;
+  margin-left: 108px;
 }
 
 .ed-column {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .article-text {
-    margin: 80px 0 0 120px;
-    /* Сделать стили для каждого(?) заголовка */
-
+  margin: 80px 0 0 120px;
 }
+/*# sourceMappingURL=styles.css.map */

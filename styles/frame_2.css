@@ -1,157 +1,156 @@
 .page-article {
-    margin-left: 121px;
-    padding-bottom: 99px;
-
+  margin-left: 121px;
+  padding-bottom: 99px;
 }
 
-
-
 .checkbox {
-
-    width: 319px;
-    border-width: 0px;
+  width: 319px;
+  border-width: 0px;
 }
 
 .checkbox-title {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .checkbox-line {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .checkbox-list {
-    list-style-type: none;
-    margin-bottom: 77px;
-    font-size: 14px;
-    margin: 0;
-
-
+  list-style-type: none;
+  margin-bottom: 77px;
+  font-size: 14px;
+  margin: 0;
 }
 
 .checkbox-item {
-    margin-bottom: 27px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .upper-container {
-    display: inline-flex;
-    justify-content: space-around;
-    gap: 30px;
-    /* Gap заглушка - сделать отступы */
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 30px;
 }
 
-/* Контейнеры с направлениями */
-
-
 .groups-article-container {
-    display: flex;
-    justify-content: space-around;
-
-
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .group-article {
-    font-size: 30px;
-    margin: auto;
+  font-size: 30px;
+  margin: auto;
 }
 
 .groups-item {
-    display: inline-flex;
-    justify-content: space-between;
-    margin-left: 57px;
-
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 57px;
 }
 
 .groups-container {
-    margin-left: 88px;
-
+  margin-left: 88px;
 }
 
 .special-item {
-    display: inline;
+  display: inline;
 }
 
 .studies-container {
-    display: flex;
-    /* justify-content: space-around; */
-    margin-left: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* justify-content: space-around; */
+  margin-left: 88px;
 }
 
 .group-section-blue {
-    background: #F4F8FF;
-    margin-top: 52px;
-    border-radius: 5px;
-    width: 791px;
-    box-sizing: border-box;
-    padding-right: 40px;
-
+  background: #F4F8FF;
+  margin-top: 52px;
+  border-radius: 5px;
+  width: 791px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 40px;
 }
 
 .group-section-yellow {
-    background: #FFF7EC;
-    margin-top: 52px;
-    border-radius: 5px;
-    width: 791px;
-    box-sizing: border-box;
-    padding-right: 40px;
+  background: #FFF7EC;
+  margin-top: 52px;
+  border-radius: 5px;
+  width: 791px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 40px;
 }
 
 .rectangle-container {
-    display: flex;
-    flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .rectangle {
-    margin-top: 4px;
+  margin-top: 4px;
 }
 
 .checkbox-container {
-    margin-top: 34px;
-    margin-left: 121px;
-    /* сделать иначе? */
+  margin-top: 34px;
+  margin-left: 121px;
 }
 
 .special-gold-item {
-    background: rgba(255, 204, 24, 1);
-    min-width: 24px;
-    max-height: 36px;
-
+  background: #ffcc18;
+  min-width: 24px;
+  max-height: 36px;
 }
 
 .button-group {
-    border: 1px solid #858585;
-    display: inline-block;
-    padding: 5px 15px;
-    /* Поля */
-    text-decoration: none;
-    color: #000;
-    /* Цвет текста */
-    border-radius: 40px;
-
+  border: 1px solid #858585;
+  display: inline-block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 40px;
 }
 
 .button-group-blue {
-    border: 1px solid #858585;
-    display: inline-block;
-    padding: 5px 15px;
-    /* Поля */
-    text-decoration: none;
-    color: #FFFFFF;
-    /* Цвет текста */
-    border-radius: 40px;
-    background: #005AAA;
-
+  border: 1px solid #858585;
+  display: inline-block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 40px;
+  background: #005AAA;
 }
 
 .menu-button-container {
-    margin-right: 120px;
+  margin-right: 120px;
 }
 
 .button-container {
-    margin-top: 39px;
-
-
+  margin-top: 39px;
 }
+/*# sourceMappingURL=frame_2.css.map */

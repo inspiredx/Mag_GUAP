@@ -14,9 +14,13 @@
   z-index: 9999;
 }
 
+.popup::-webkit-scrollbar {
+  width: 0;
+}
+
 .popup {
   position: fixed;
-  top: 13%;
+  top: 1%;
   left: 50.2%;
   width: 915px;
   margin-left: -200px;
@@ -25,6 +29,9 @@
   border-radius: 4px;
   z-index: 99999;
   opacity: 1;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  height: 1200px;
 }
 
 .popup-close {
@@ -123,5 +130,53 @@
 .modal-institute-img {
   margin-right: 38px;
   margin-top: 30px;
+}
+
+.ed-programm {
+  margin-left: 76px;
+}
+
+.ed-caption {
+  font-size: 14px;
+  margin: 0;
+  margin-top: 37px;
+  margin-bottom: 7px;
+}
+
+.ed-text {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 44px;
+}
+
+.modal-container-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 318px;
+}
+
+.modal-inner-wrapper {
+  display: block;
+}
+
+.modal-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 57px;
+  margin-left: 76px;
+}
+
+.modal-line {
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=frame-3.css.map */

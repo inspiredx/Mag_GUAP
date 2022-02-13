@@ -12,9 +12,12 @@
         opacity: 0.7
         z-index: 9999
 
+.popup::-webkit-scrollbar
+    width: 0
+
 .popup
     position: fixed
-    top: 13%
+    top: 1%
     left: 50.2%
     width: 915px
     margin-left: -200px
@@ -23,6 +26,10 @@
     border-radius: 4px
     z-index: 99999
     opacity: 1
+    overflow-y: scroll
+    background-color: #ffffff
+
+    height: 1200px
 
     &-close
         position: absolute
@@ -94,3 +101,35 @@
 .modal-institute-img
     margin-right: 38px
     margin-top: 30px
+
+.ed-programm
+    margin-left: 76px
+
+.ed-caption
+    font-size: 14px
+    margin: 0
+    margin-top: 37px
+    margin-bottom: 7px
+
+.ed-text
+    font-size: 20px
+    font-weight: 700
+    margin: 0
+    margin-bottom: 44px
+
+.modal-container-article
+    display: flex
+    flex-direction: column
+    width: 318px
+
+.modal-inner-wrapper
+    display: block
+
+.modal-description
+    display: flex
+    justify-content: space-between
+    margin-bottom: 57px
+    margin-left: 76px
+
+.modal-line
+    margin-bottom: 15px

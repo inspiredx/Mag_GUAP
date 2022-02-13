@@ -54,16 +54,20 @@
 .group-article {
   font-size: 30px;
   margin: auto;
+  margin-bottom: 26px;
+}
+
+.group-code {
+  margin: auto;
+  margin-top: 0;
 }
 
 .groups-item {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-left: 57px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .groups-container {
@@ -78,6 +82,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   /* justify-content: space-around; */
   margin-left: 88px;
 }

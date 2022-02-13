@@ -77,6 +77,7 @@
 .modal-groups-container {
   margin-right: 105px;
   margin-left: 76px;
+  margin-top: 138px;
 }
 
 .modal-institute {
@@ -104,7 +105,9 @@
 }
 
 .group-code {
-  margin: auto;
+  margin: 0;
+  margin-left: 44px;
+  margin-top: 6px;
 }
 
 .modal-institute-container {
@@ -178,5 +181,11 @@
 
 .modal-line {
   margin-bottom: 15px;
+}
+
+.accordion-container {
+  margin-left: 77px;
+  margin-right: 77px;
+  margin-bottom: 111px;
 }
 /*# sourceMappingURL=frame-3.css.map */

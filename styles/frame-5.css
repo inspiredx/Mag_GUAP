@@ -12,7 +12,14 @@
   margin-right: 89px;
   margin-top: 0;
   margin-bottom: 44px;
+  padding-top: 34px;
+  padding-bottom: 39px;
   color: white;
+}
+
+.modal-institute-img-2 {
+  margin-right: 38px;
+  margin-top: 10px;
 }
 
 .accordion-body {

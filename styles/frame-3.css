@@ -31,7 +31,7 @@
   opacity: 1;
   overflow-y: scroll;
   background-color: #ffffff;
-  height: 1200px;
+  height: 100%;
 }
 
 .popup-close {

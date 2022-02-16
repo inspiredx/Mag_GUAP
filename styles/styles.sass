@@ -8,6 +8,9 @@
     src: url("../fonts/Roboto.ttf")
     font-display: swap
 
+$margin-left: 119px
+$margin-right: 150px
+
 html
     height: 100%
 
@@ -19,10 +22,31 @@ body
     flex-direction: column
     justify-content: center
 
+p
+    margin: 0
+
 .main-menu
     font-size: 14px
     padding-top: 41px
-    margin-left: 127px
+    margin-left: $margin-left
+
+.main-flexbox
+    display: flex
+    justify-content: space-between
+    padding-inline-start: 0
+    list-style-type: none
+
+.main-caption
+    margin-top: 0
+    margin-bottom: 52px
+
+.directions-list
+    display: flex
+    justify-content: space-between
+    list-style-type: none
+    margin-top: 57px
+    margin-right: $margin-right
+    padding: 0
 
 .page-article
     font-size: 30px
@@ -45,10 +69,18 @@ body
         list-style-type: none
         flex-wrap: wrap
 
+    &-around
+        display: flex
+        justify-content: space-around
+        list-style-type: none
+        flex-wrap: wrap
+
 .banner-seo
     padding-bottom: 106px
     margin-left: 80px
     /* сумма с отступом агента - переделать */
+
+.p-margin-reset
 
 .seo-item
     margin-right: 100px
@@ -56,12 +88,19 @@ body
 .slogan-number
     color: rgba(0, 90, 170, 1)
     font-size: 36px
-    margin-right: 10.12px
-    margin-left: 20px
+    margin-left: 0
+    margin-right: 14px
+
+.slogan-item
+    display: flex
+    align-items: center
+    margin-right: 48px
 
 .slogan-block
-    margin-left: 88px
-    margin-top: 99px
+    margin-left: 119px
+
+.slogan-open-day
+    margin-right: $margin-right
 
 .op-info
     padding-bottom: 159px
@@ -143,7 +182,7 @@ body
     white-space: nowrap
     margin-bottom: 174px
     display: block
-    margin-left: 120px
+    margin-left: $margin-left
 
 .review
     display: flex
@@ -158,3 +197,35 @@ body
 
 .article-text
     margin: 80px 0 0 120px
+
+.slogan-wrapper
+    display: flex
+    justify-content: space-between
+    margin-top: 115px
+
+.flexbox-date
+    display: flex
+    flex-direction: column
+
+.open-day-block-1
+    height: 241px
+    background-image: url("../images/background/Rectangle-1.png")
+
+.open-day-block-2
+    height: 241px
+    background-image: url("../images/background/Rectangle-2.png")
+
+.open-day-block-3
+    height: 241px
+    background-image: url("../images/background/Rectangle-3.png")
+
+.open-day-block-4
+    height: 241px
+    background-image: url("../images/background/Rectangle-4.png")
+    color: white
+
+.block-place
+    margin: 0
+
+.block-head-text
+    margin: 0

@@ -19,7 +19,7 @@
                 <!-- Главное меню -->
 
                 <section class="main-menu">
-                    <ul class="flexbox-between">
+                    <ul class="main-flexbox">
                         <li class="menu-item">
                             <img src="./images/carbon_education.svg" alt="Логотип">
                         </li>
@@ -38,46 +38,57 @@
 
                 <!-- Блок слогана -->
 
-                <section class="slogan-block">
-                    <h2>Магистратура ГУАП – твоя траектория обучения</h2>
-                    <p>Просто выбери направление</p>
-                    <ul class="flexbox-between">
-                        <li class="slogan-item">
-                            <p class="slogan-number">16</p>
-                            <p>укрупненных групп</p>
-                        </li>
+                <div class="slogan-wrapper">
 
-                        <li class="slogan-item">
-                            <p class="slogan-number">29</p>
-                            <p>направлений подготовки</p>
-                        </li>
+                    <section class="slogan-block">
+                        <h2 class="main-caption">Магистратура ГУАП –<br>твоя траектория обучения</h2>
+                        <p>Просто выбери направление</p>
 
-                        <li class="slogan-item">
-                            <p class="slogan-number">9</p>
-                            <p>программ на заочке</p>
-                        </li>
+                        <!-- Направления подготовки -->
 
-                        <li class="slogan-item">
-                            <p class="slogan-number">2</p>
-                            <p>года на очном</p>
-                        </li>
-                    </ul>
+                        <ul class="directions-list">
+                            <li class="slogan-item">
+                                <p class="slogan-number">16</p>
+                                <p>укрупненных групп</p>
+                            </li>
 
-                </section>
+                            <li class="slogan-item">
+                                <p class="slogan-number">29</p>
+                                <p>направлений подготовки</p>
+                            </li>
 
-                <!-- Блок день открытых дверей -->
+                            <li class="slogan-item">
+                                <p class="slogan-number">9</p>
+                                <p>программ на заочке</p>
+                            </li>
 
-                <section class="open-day-block">
-                    <p class="block-head-text">Ближайший День открытых дверей магистратуры</p>
-                    <div class="flexbox">
-                        <p class="block-date">9 декабря</p>
-                        <p class="block-place">Ленсовета 14,</p>
-                        <p class="block-time">начало в 12:00</p>
-                    </div>
-                    <button class="button" type="button">Регистрация</button>
-                </section>
+                            <li class="slogan-item">
+                                <p class="slogan-number">2</p>
+                                <p>года на очном</p>
+                            </li>
+                        </ul>
+
+
+                    </section>
+
+                    <!-- Блок день открытых дверей -->
+
+                    <section class="slogan-open-day">
+                        <p class="block-head-text">Ближайший<br>День открытых дверей<br>магистратуры</p>
+                        <div class="flexbox-date">
+                            <p class="block-date">9 декабря</p><br>
+                            <p class="block-place">Ленсовета 14,<br>начало в 12:00</p>
+                        </div>
+                        <button class="button" type="button">Регистрация</button>
+                    </section>
+
+                </div>
+
+
 
             </div>
+
+
 
             <!-- Блок сео -->
 
@@ -455,41 +466,61 @@
             <section class="op-list">
                 <ul>
                     <li class="op-item">
-                        <section class="open-day-block">
+                        <section class="open-day-block-1">
                             <p class="block-date">9 декабря, 16:00</p>
                             <p class="block-place">Ленсовета 14</p>
-                            <p class="block-text">День открытых дверей
-                                для поступающих в магистратуру</p>
+                            <p class="block-text">День открытых дверей<br>
+                                для поступающих<br> в магистратуру</p>
                             <button class="button" type="button">Подробнее</button>
                         </section>
                     </li>
 
                     <li class="op-item">
-                        <section class="open-day-block">
+                        <section class="open-day-block-2">
                             <p class="block-date">24 декабря, 13:00</p>
                             <p class="block-place">онлайн</p>
-                            <p class="block-text">День открытых дверей
-                                образовательной программы «Интернет вещей»</p>
+                            <p class="block-text">День открытых дверей<br>
+                                образовательной программы<br>«Интернет вещей»</p>
                             <button class="button" type="button">Регистрация</button>
                         </section>
                     </li>
 
                     <li class="op-item">
-                        <section class="open-day-block">
+                        <section class="open-day-block-3">
                             <p class="block-date">5 февраля, 12:00</p>
                             <p class="block-place">Б. Морская, 67, ауд. 53-03</p>
-                            <p class="block-text">День открытых дверей
-                                института аэрокосмических приборов и систем</p>
+                            <p class="block-text">День открытых дверей<br>
+                                института аэрокосмических<br>приборов и систем</p>
                             <button class="button" type="button">Подробнее</button>
                         </section>
                     </li>
 
                     <li class="op-item">
-                        <section class="open-day-block">
+                        <section class="open-day-block-4">
                             <p class="block-date">19 февраля, 16:00</p>
-                            <p class="block-place">Точка кипения Санкт-Петербург.ГУАП</p>
-                            <p class="block-text">День открытых дверей
-                                международных образовательных программ</p>
+                            <p class="block-place">Точка кипения<br>Санкт-Петербург<br>ГУАП</p>
+                            <p class="block-text">День открытых дверей<br>
+                                международных<br>образовательных программ</p>
+                            <button class="button" type="button">Регистрация</button>
+                        </section>
+                    </li>
+
+                    <li class="op-item">
+                        <section class="open-day-block-4">
+                            <p class="block-date">19 февраля, 16:00</p>
+                            <p class="block-place">Точка кипения<br>Санкт-Петербург<br>ГУАП</p>
+                            <p class="block-text">День открытых дверей<br>
+                                международных<br>образовательных программ</p>
+                            <button class="button" type="button">Регистрация</button>
+                        </section>
+                    </li>
+
+                    <li class="op-item">
+                        <section class="open-day-block-4">
+                            <p class="block-date">19 февраля, 16:00</p>
+                            <p class="block-place">Точка кипения<br>Санкт-Петербург<br>ГУАП</p>
+                            <p class="block-text">День открытых дверей<br>
+                                международных<br>образовательных программ</p>
                             <button class="button" type="button">Регистрация</button>
                         </section>
                     </li>

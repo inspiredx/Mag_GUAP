@@ -30,6 +30,10 @@ p
     padding-top: 41px
     margin-left: $margin-left
 
+.menu-item
+    display: flex
+    align-self: center
+
 .main-flexbox
     display: flex
     justify-content: space-between
@@ -39,6 +43,7 @@ p
 .main-caption
     margin-top: 0
     margin-bottom: 52px
+    font-size: 53px
 
 .directions-list
     display: flex
@@ -103,30 +108,40 @@ p
     margin-right: $margin-right
 
 .op-info
-    padding-bottom: 159px
+    margin-bottom: 234px
     padding-top: 69px
-    padding-left: 119px
-    padding-right: 120px
+    margin-left: $margin-left
+    padding-right: $margin-right
     display: grid
     grid-template-columns: 377px 377px 377px
     grid-template-rows: 148px 148px 148px
+    max-height: 160px
 
 .info-img
     align-self: center
 
+.info-link
+    margin-top: auto
+
 .op-container
-    display: flex
-    justify-content: space-around
+    display: -webkit-box
 
 .op-column
     list-style-type: none
-    margin: 0
+    margin-left: 0
+    margin-right: 40px
     padding-inline-start: 0
     display: flex
     flex-direction: column
 
+.op-article-text
+    margin-top: 0
+    margin-bottom: 67px
+    margin-left: $margin-left
+
 .opn-item
-    margin: 0
+    margin-top: 0
+    margin-bottom: 31px
 
 .info-item
     display: inline-flex
@@ -142,9 +157,9 @@ p
 
 .add-info
     display: flex
-    justify-content: space-around
+    justify-content: space-between
     min-width: 1184px
-    margin-left: 152px
+    margin-left: $margin-left
     padding-bottom: 174px
 
 /* Скролбар */
@@ -184,19 +199,41 @@ p
     display: block
     margin-left: $margin-left
 
+.op-img-arrow
+    margin-left: auto
+
 .review
     display: flex
     text-overflow: ellipsis
+    margin-left: $margin-left
 
     &-texts
         width: 558px
         margin-left: 108px
 
+.ed-flexbox
+    display: flex
+    margin-left: $margin-left
+
 .ed-column
+    padding: 0
+    margin-left: 0
+    margin-right: 88px
     list-style-type: none
 
+.ed-item
+    margin-bottom: 10px
+
+.article-explosion
+    display: flex
+    margin-left: $margin-left
+    margin-bottom: 68px
+
 .article-text
-    margin: 80px 0 0 120px
+    margin-top: 145px
+    margin-bottom: 0
+    margin-right: $margin-right
+    margin-left: $margin-left
 
 .slogan-wrapper
     display: flex
@@ -206,6 +243,7 @@ p
 .flexbox-date
     display: flex
     flex-direction: column
+    margin-bottom: 47px
 
 .open-day-block-1
     height: 241px
@@ -229,3 +267,21 @@ p
 
 .block-head-text
     margin: 0
+
+// Выпадающий блок
+
+.howto-block
+    background-image: url("../images/background/howto-background.png")
+    min-height: 514px
+
+.howto-list
+    display: flex
+    justify-content: space-around
+    list-style-type: none
+
+.name
+    margin-top: 62px
+    margin-bottom: 8px
+
+.p-review
+    margin-top: 38px

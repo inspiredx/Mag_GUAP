@@ -134,6 +134,14 @@
   max-height: 36px;
 }
 
+.gold-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
 .button-group {
   border: 1px solid #858585;
   display: inline-block;

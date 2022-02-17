@@ -35,12 +35,11 @@
 }
 
 .upper-container {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  gap: 30px;
 }
 
 .groups-article-container {

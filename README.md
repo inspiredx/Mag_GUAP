@@ -1,3 +1,3 @@
-# Frame_1
-https://inspiredx.github.io/Frame_1/
+# Mag_GUAP
+https://inspiredx.github.io/Mag_GUAP/
 

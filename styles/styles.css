@@ -134,9 +134,30 @@ p {
 
 .slogan-number {
   color: #005aaa;
-  font-size: 36px;
+  font-size: 40px;
+  font-weight: bold;
   margin-left: 0;
   margin-right: 14px;
+}
+
+.slogan-number-violet {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 0;
+  margin-right: 14px;
+  color: #a32b9b;
+}
+
+.slogan-number-start {
+  color: #005aaa;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slogan-number-start-violet {
+  font-size: 20px;
+  color: #a32b9b;
+  font-weight: bold;
 }
 
 .slogan-item {

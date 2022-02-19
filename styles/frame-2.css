@@ -78,6 +78,12 @@
   margin-bottom: 26px;
 }
 
+.group-article-special {
+  font-size: 30px;
+  margin-bottom: 26px;
+  margin-left: 43px;
+}
+
 .groups-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -208,6 +214,13 @@
 }
 
 .frame-caption {
+  font-family: "Roboto";
+  font-weight: 500;
   font-size: 40px;
+}
+
+.p-padded {
+  padding-top: 7.5px;
+  font-size: 14px;
 }
 /*# sourceMappingURL=frame-2.css.map */

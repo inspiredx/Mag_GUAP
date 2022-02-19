@@ -4,8 +4,10 @@
 @import url("./frame-4.css");
 @import url("./frame-5.css");
 @font-face {
-  font-family: Roboto;
-  src: url("../fonts/Roboto.ttf");
+  font-family: "Roboto-Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Roboto-Black.ttf") format("ttf");
   font-display: swap;
 }
 
@@ -135,14 +137,14 @@ p {
 .slogan-number {
   color: #005aaa;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 0;
   margin-right: 14px;
 }
 
 .slogan-number-violet {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 0;
   margin-right: 14px;
   color: #a32b9b;
@@ -150,14 +152,16 @@ p {
 
 .slogan-number-start {
   color: #005aaa;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .slogan-number-start-violet {
   font-size: 20px;
   color: #a32b9b;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .slogan-item {

@@ -37,7 +37,7 @@
 .popup-close {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 21px;
 }
 
 .popup-open {
@@ -49,15 +49,29 @@
 .modal-date {
   margin: 0;
   padding: 0;
+  font-size: 30px;
 }
 
 .modal-code {
-  margin: 0;
+  margin-left: 76px;
+  margin-bottom: 44px;
+  line-height: 0;
+  color: rgba(49, 54, 99, 0.5);
+}
+
+.modal-caption {
+  font-size: 30px;
+}
+
+.duo {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .start-item {
   margin-left: 76px;
   margin-top: 96px;
+  margin-bottom: 24px;
 }
 
 .popup-container {
@@ -69,11 +83,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 76px;
   margin-right: 105px;
 }
 
@@ -86,13 +99,18 @@
 .modal-institute {
   background: linear-gradient(90.03deg, #005AAA -0.63%, #00BEF3 99.33%);
   min-height: 181px;
-  margin: 0;
+  margin-bottom: 37px;
 }
 
 .modal-institute-caption {
   font-size: 20px;
   font-weight: 700;
+  margin-top: 31px;
   margin-bottom: 19px;
+}
+
+.modal-name-card {
+  margin-right: 77px;
 }
 
 .p-medium {
@@ -158,7 +176,7 @@
 
 .ed-text {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
   margin-bottom: 44px;
 }
@@ -172,10 +190,13 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 318px;
+  margin-top: 5.5px;
 }
 
 .modal-inner-wrapper {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .modal-description {
@@ -185,7 +206,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 57px;
+  margin-bottom: 41px;
   margin-left: 76px;
 }
 
@@ -263,5 +284,44 @@
 .head-elem3-item {
   font-size: 20px;
   font-weight: 400;
+}
+
+.kaf-name {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.kaf-text {
+  margin-top: 24px;
+}
+
+.accordion-button {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,border-radius .15s ease,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,border-radius .15s ease,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease,-webkit-box-shadow .15s ease-in-out;
+}
+
+.blue-background {
+  background: #F4F8FF;
+  padding: 47px;
 }
 /*# sourceMappingURL=frame-3.css.map */

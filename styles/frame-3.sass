@@ -1,4 +1,4 @@
-
+$modal-left: 76px
 
 .popup-fade
     display: none
@@ -35,7 +35,7 @@
     &-close
         position: absolute
         top: 10px
-        right: 10px
+        right: 21px
 
     &-open
 
@@ -46,13 +46,25 @@
 .modal-date
     margin: 0
     padding: 0
+    font-size: 30px
 
 .modal-code
-    margin: 0
+    margin-left: $modal-left
+    margin-bottom: 44px
+    line-height: 0
+    color: rgba(49, 54, 99, 0.5)
+
+.modal-caption
+    font-size: 30px
+
+.duo
+    font-size: 20px
+    font-weight: 700
 
 .start-item
     margin-left: $modal-left
     margin-top: 96px
+    margin-bottom: 24px
 
 .popup-container
     width: 915px
@@ -60,9 +72,8 @@
 
 .mod-header
     display: flex
-    align-items: center
-    justify-content: space-around
-    // margin-left: 76px
+    justify-content: space-between
+    margin-left: $modal-left
     margin-right: 105px
 
 .modal-groups-container
@@ -73,13 +84,16 @@
 .modal-institute
     background: linear-gradient(90.03deg, #005AAA -0.63%, #00BEF3 99.33%)
     min-height: 181px
-    margin: 0
-    //сделать общий класс для градиентов
+    margin-bottom: 37px
 
     &-caption
         font-size: 20px
         font-weight: 700
+        margin-top: 31px
         margin-bottom: 19px
+
+.modal-name-card
+    margin-right: 77px
 
 .p-medium
     margin-bottom: 0
@@ -129,7 +143,7 @@
 
 .ed-text
     font-size: 20px
-    font-weight: 700
+    font-weight: 500
     margin: 0
     margin-bottom: 44px
 
@@ -137,14 +151,15 @@
     display: flex
     flex-direction: column
     width: 318px
+    margin-top: 5.5px
 
 .modal-inner-wrapper
-    display: block
+    display: flex
 
 .modal-description
     display: flex
     justify-content: space-between
-    margin-bottom: 57px
+    margin-bottom: 41px
     margin-left: 76px
 
 .modal-line
@@ -212,3 +227,31 @@
 
     font-size: 20px
     font-weight: 400
+
+.kaf-name
+    margin-bottom: 15px
+    font-size: 20px
+
+.kaf-text
+    margin-top: 24px
+
+.accordion-button
+    position: relative
+    display: flex
+    align-items: center
+    width: 100%
+    padding: 1rem 1.25rem
+    font-family: Roboto
+    font-size: 20px
+    font-weight: 700
+    color: #212529
+    text-align: left
+    background-color: #fff
+    border: 0
+    border-radius: 0
+    overflow-anchor: none
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease
+
+.blue-background
+    background: #F4F8FF
+    padding: 47px

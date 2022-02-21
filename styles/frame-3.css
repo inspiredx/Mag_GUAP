@@ -218,6 +218,7 @@
   margin-left: 77px;
   margin-right: 77px;
   margin-bottom: 111px;
+  background: #F4F8FF;
 }
 
 .s-form-container {
@@ -308,6 +309,7 @@
   font-family: Roboto;
   font-size: 20px;
   font-weight: 700;
+  width: 761px;
   color: #212529;
   text-align: left;
   background-color: #fff;
@@ -320,8 +322,16 @@
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease,-webkit-box-shadow .15s ease-in-out;
 }
 
+.accordion-text {
+  font-size: 16px !important;
+  font-weight: 400;
+}
+
 .blue-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: #F4F8FF;
-  padding: 47px;
+  padding-top: 47px;
 }
 /*# sourceMappingURL=frame-3.css.map */

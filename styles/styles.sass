@@ -7,41 +7,43 @@
     font-family: "Roboto-Black"
     font-style: normal
     font-weight: 900
-    src: url("../fonts/Roboto-Black.ttf") format("ttf")
+    src: url("../fonts/Roboto-Black.ttf") format("truetype")
     font-display: swap
-
+    src: local("Roboto-Black")
 
     &
         font-family: "Roboto-Bold"
         font-style: normal
         font-weight: 700
-        src: url("../fonts/Roboto-Bold.ttf") format("ttf")
+        src: url("../fonts/Roboto-Bold.ttf") format("truetype")
         font-display: swap
-
+        src: local("Roboto-Bold")
 
     &
         font-family: "Roboto-Medium"
         font-style: normal
         font-weight: 500
-        src: url("../fonts/Roboto-Medium.ttf") format("ttf")
+        src: url("../fonts/Roboto-Medium.ttf") format("truetype")
         font-display: swap
-
+        src: local("Roboto-Medium")
 
     &
         font-family: "Roboto-Regular"
         font-style: normal
         font-weight: 400
-        src: url("../fonts/Roboto-Regular.ttf") format("ttf")
+        src: url("../fonts/Roboto-Regular.ttf") format("truetype")
         font-display: swap
+        src: local("Roboto-Regular")
 
 $margin-left: 119px
 $margin-right: 150px
+$modal-left: 76px
 
 html
     height: 100%
 
 body
-    font-family: "Roboto"
+    font-family: 'Roboto', sans-serif
     background-color: white
     margin: 0
     display: flex
@@ -51,6 +53,9 @@ body
 p
     margin: 0
 
+.nav-line
+    margin-left: $margin-left
+
 .main-menu
     font-size: 14px
     padding-top: 41px
@@ -59,6 +64,7 @@ p
 .menu-item
     display: flex
     align-self: center
+    margin-right: 80px
 
 .main-flexbox
     display: flex
@@ -106,6 +112,12 @@ p
         list-style-type: none
         flex-wrap: wrap
 
+    &-special
+        display: flex
+        list-style-type: none
+        flex-wrap: wrap
+        padding-inline-start: 0
+
 .banner-seo
     padding-bottom: 106px
     margin-left: 80px
@@ -118,6 +130,7 @@ p
 
 .slogan-number
     color: rgba(0, 90, 170, 1)
+    font-family: 'Roboto'
     font-size: 40px
     font-weight: 700
     margin-left: 0

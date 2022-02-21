@@ -18,7 +18,9 @@
 }
 
 .checkbox-title {
-  margin-left: 40px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .checkbox-line {
@@ -30,10 +32,12 @@
   margin-bottom: 77px;
   font-size: 14px;
   margin: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 
 .checkbox-item {
-  margin-bottom: 27px;
+  margin-bottom: 21px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +45,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .upper-container {
@@ -73,8 +79,17 @@
   padding-left: 45px;
 }
 
+.groups-box-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 76px;
+}
+
 .group-article {
   font-size: 30px;
+  font-weight: 500;
   margin-bottom: 26px;
 }
 
@@ -126,6 +141,7 @@
 
 .studies-text {
   margin-bottom: 10px;
+  color: #636363;
 }
 
 .group-section-blue {
@@ -167,7 +183,7 @@
 }
 
 .checkbox-container {
-  margin-top: 34px;
+  margin-top: 2px;
   margin-left: 121px;
 }
 
@@ -186,26 +202,39 @@
 }
 
 .button-group {
-  border: 1px solid #858585;
+  border: 1px solid #000000;
   display: inline-block;
-  padding: 5px 15px;
+  padding: 7px 30px;
   text-decoration: none;
   color: #000;
   border-radius: 40px;
 }
 
 .button-group-blue {
-  border: 1px solid #858585;
+  border: 1px solid #000000;
   display: inline-block;
-  padding: 5px 15px;
+  padding: 7px 30px;
   text-decoration: none;
   color: #FFFFFF;
   border-radius: 40px;
   background: #005AAA;
 }
 
+.button-group-grey {
+  border: 1px solid #858585;
+  display: inline-block;
+  padding: 7px 30px;
+  text-decoration: none;
+  color: #858585;
+  border-radius: 40px;
+}
+
 .menu-button-container {
-  margin-right: 120px;
+  margin-left: 27px;
+}
+
+.menu-button-start-container {
+  margin-left: 61px;
 }
 
 .button-container {
@@ -222,5 +251,6 @@
 .p-padded {
   padding-top: 7.5px;
   font-size: 14px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=frame-2.css.map */

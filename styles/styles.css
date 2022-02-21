@@ -7,8 +7,9 @@
   font-family: "Roboto-Black";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/Roboto-Black.ttf") format("ttf");
+  src: url("../fonts/Roboto-Black.ttf") format("truetype");
   font-display: swap;
+  src: local("Roboto-Black");
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   background-color: white;
   margin: 0;
   display: -webkit-box;
@@ -35,6 +36,10 @@ p {
   margin: 0;
 }
 
+.nav-line {
+  margin-left: 119px;
+}
+
 .main-menu {
   font-size: 14px;
   padding-top: 41px;
@@ -47,6 +52,7 @@ p {
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
+  margin-right: 80px;
 }
 
 .main-flexbox {
@@ -124,6 +130,17 @@ p {
       flex-wrap: wrap;
 }
 
+.flexbox-special {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
 .banner-seo {
   padding-bottom: 106px;
   margin-left: 80px;
@@ -136,6 +153,7 @@ p {
 
 .slogan-number {
   color: #005aaa;
+  font-family: 'Roboto';
   font-size: 40px;
   font-weight: 700;
   margin-left: 0;

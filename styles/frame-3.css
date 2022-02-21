@@ -41,10 +41,9 @@
 }
 
 .popup-open {
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-  font-weight: 700;
+  color: #636363;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .modal-date {
@@ -54,6 +53,11 @@
 
 .modal-code {
   margin: 0;
+}
+
+.start-item {
+  margin-left: 76px;
+  margin-top: 96px;
 }
 
 .popup-container {
@@ -108,6 +112,8 @@
 }
 
 .group-code {
+  font-family: 'Roboto';
+  font-weight: 400;
   margin-top: 6px;
   margin-right: 42px;
   margin-bottom: 0;
@@ -255,7 +261,6 @@
 }
 
 .head-elem3-item {
-  margin-top: 5px;
   font-size: 20px;
   font-weight: 400;
 }

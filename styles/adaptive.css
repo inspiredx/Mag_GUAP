@@ -1,9 +1,16 @@
 @media only screen and (max-width: 375px) {
+  body {
+    width: 375px;
+  }
   .page-container {
-    width: 1000px;
+    width: 375px !important;
   }
   .mag-wraper {
-    width: 900px;
+    width: 375px !important;
+  }
+  .nav-line {
+    max-width: 375px;
+    margin-left: 0 !important;
   }
   .flexbox-institute {
     -webkit-box-orient: vertical;
@@ -14,16 +21,72 @@
   .checkbox-container {
     margin: 0 auto;
   }
+  .groups-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .groups-container {
+    margin: 0;
+  }
+  .group-article {
+    font-size: 14px;
+    margin-left: 42px;
+  }
+  .groups-article-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 30px;
+  }
+  .slogan-number {
+    font-size: 25px;
+    margin-right: 0 !important;
+  }
+  .groups-item {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 300px;
+    margin-right: 0 !important;
+  }
   .menu-item {
     margin-left: 8px;
   }
   .frame-caption {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    left: 30px;
-    font-size: 30px;
+    font-size: 25px;
+    margin: 0 60px 0 0;
+  }
+  .p-padded {
+    text-align: right;
+  }
+  .elem3-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .head-elem3-item {
+    margin-left: 29px;
+  }
+  .upper-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s-form-container {
+    margin-top: 20px;
+  }
+  .menu-button-start-container {
+    margin: 0;
+    margin-top: 10px;
+  }
+  .menu-button-container {
+    margin: 0;
+    margin-top: 10px;
   }
   .groups-container {
     padding-top: 60px;
@@ -32,10 +95,10 @@
     padding-top: 20px;
   }
   .group-section-blue {
-    width: 689px;
+    width: 375px;
   }
   .group-section-yellow {
-    width: 689px;
+    width: 375px;
   }
 }
 /*# sourceMappingURL=adaptive.css.map */

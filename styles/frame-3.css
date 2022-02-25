@@ -52,6 +52,13 @@
   font-size: 30px;
 }
 
+.modal-date-grey {
+  margin: 0 34px 0 0;
+  padding: 0;
+  font-size: 20px;
+  color: #C4C4C4;
+}
+
 .modal-code {
   margin-left: 76px;
   margin-bottom: 44px;
@@ -66,7 +73,18 @@
 }
 
 .modal-caption {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.modal-caption-grey {
   font-size: 30px;
+  color: #C4C4C4;
+  font-size: 20px;
+}
+
+.modal-img {
+  padding-bottom: 24px;
 }
 
 .duo {
@@ -92,6 +110,14 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-left: 76px;
+  margin-right: 105px;
+}
+
+.mod-header-grey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 76px;
   margin-right: 105px;
 }
@@ -128,6 +154,13 @@
   margin-top: 0;
   font-size: 20px;
   font-weight: 500;
+}
+
+.p-medium-2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 19px;
+  text-decoration: underline;
 }
 
 .p-small {
@@ -179,17 +212,18 @@
 }
 
 .ed-caption {
-  font-size: 14px;
+  font-size: 22px;
+  font-weight: 400;
   margin: 0;
-  margin-top: 37px;
+  margin-top: 43px;
   margin-bottom: 7px;
 }
 
 .ed-text {
-  font-size: 20px;
+  font-size: 32px;
   font-weight: 500;
   margin: 0;
-  margin-bottom: 44px;
+  margin-bottom: 86px;
 }
 
 .modal-container-article {
@@ -202,12 +236,17 @@
           flex-direction: column;
   width: 318px;
   margin-top: 5.5px;
+  margin-right: 69px;
 }
 
 .modal-inner-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.inner-wrappex-text {
+  margin-left: 26px;
 }
 
 .modal-description {
@@ -301,6 +340,7 @@
 .kaf-name {
   margin-bottom: 15px;
   font-size: 20px;
+  font-weight: 400;
 }
 
 .kaf-text {

@@ -42,8 +42,8 @@
 
 .popup-open {
   color: #636363;
-  font-size: 14px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .modal-date {
@@ -55,6 +55,12 @@
 .modal-code {
   margin-left: 76px;
   margin-bottom: 44px;
+  line-height: 0;
+  color: rgba(49, 54, 99, 0.5);
+}
+
+.modal-code-frame {
+  font-size: 14px;
   line-height: 0;
   color: rgba(49, 54, 99, 0.5);
 }
@@ -92,8 +98,6 @@
 
 .modal-groups-container {
   margin-right: 105px;
-  margin-left: 76px;
-  margin-top: 138px;
 }
 
 .modal-institute {
@@ -117,6 +121,13 @@
   margin-bottom: 0;
   margin-top: 0;
   font-size: 20px;
+}
+
+.p-medium-modal {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .p-small {
@@ -215,7 +226,7 @@
 }
 
 .accordion-container {
-  margin-left: 77px;
+  margin-left: 63px;
   margin-right: 77px;
   margin-bottom: 111px;
   background: #F4F8FF;
@@ -320,11 +331,6 @@
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,border-radius .15s ease,-webkit-box-shadow .15s ease-in-out;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease,-webkit-box-shadow .15s ease-in-out;
-}
-
-.accordion-text {
-  font-size: 16px !important;
-  font-weight: 400;
 }
 
 .blue-background {

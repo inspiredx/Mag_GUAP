@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -39,7 +39,7 @@
                 <!-- Главное меню -->
 
                 <section class="main-menu">
-                    <ul class="flexbox-between">
+                    <ul class="flexbox-special">
                         <li class="menu-item">
                             <img src="./images/carbon_education.svg" alt="Логотип">
                         </li>
@@ -47,7 +47,7 @@
                         <li class="menu-item">Правила приема</li>
                         <li class="menu-item">Экзамены</li>
                         <li class="menu-item">Документы</li>
-                        <li>
+                        <li class="menu-button-start-container">
                             <a class="button-group" href="#">задать вопрос</a>
                         </li>
                         <li class="menu-button-container">
@@ -56,18 +56,18 @@
                     </ul>
                 </section>
 
-                <img src="./images/Line-9.svg" alt="Линия">
+                <img class="nav-line" src="./images/Line-9.svg" alt="Линия">
 
                 <div class="page-article">
 
-                    <h2>Направления и количество мест для приема на обучение в магистратуре<br>
-                        <a class="link" href="#">в 2022 году</a>
+                    <h2 class="frame-caption">Направления и количество мест для приема на обучение<br> в магистратуре
+                        <a class="link-nodec" href="#">в 2022 году</a>
                     </h2>
                 </div>
 
                 <!-- Институт/факультет -->
 
-                <div class="flexbox">
+                <div class="flexbox-institute">
 
                     <div class="checkbox-container">
 
@@ -213,7 +213,7 @@
                             </ul>
                         </fieldset>
 
-                        <a class="button-group" href="#">X сбросить фильтр</a>
+                        <a class="button-group-grey" href="#">X сбросить фильтр</a>
 
                     </div>
 
@@ -221,14 +221,32 @@
                         <section class="groups">
 
                             <div class="upper-container">
-                                <h3>ГРУППЫ И НАПРАВЛЕНИЯ</h3>
-                                <p>по коду УГС</p>
-                                <p>по алфавиту</p>
-                                <form>
-                                    <input type="text">
-                                    <button type="submit"></button>
-                                </form>
+                                <div class="head-elem3-item">ГРУППЫ И НАПРАВЛЕНИЯ</div>
+
+                                <div class="elem3-container">
+
+                                    <div class="elem3-item">по коду УГС</div>
+                                    <div class="elem3-item">по алфавиту</div>
+
+
+                                    <!-- Форма поиска -->
+
+                                    <div class="s-form-container">
+                                        <form class="s-form">
+                                            <input class="s-input" type="text" placeholder="    ">
+                                            <button class="s-button" type="submit"></button>
+                                        </form>
+                                    </div>
+
+
+                                </div>
+
                             </div>
+
+
+
+
+
                             <img src="./images/Line-2.svg" alt="Линия">
 
                             <!-- Первое направление -->
@@ -240,37 +258,40 @@
                                 </div>
 
                                 <div class="groups-article-container">
-                                    <ul class="flexbox-between">
+                                    <ul class="groups-box">
                                         <li class="special-item">
-                                            <p class="slogan-number">Очная</p>
+                                            <p class="slogan-number-start">очная</p>
+                                            <p>форма</p>
 
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">2</p>
-                                            <p>года<br>обучения</p>
+                                            <p class="p-padded">года<br>обучения</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">9</p>
-                                            <p>бюджетных<br>мест</p>
+                                            <p class="p-padded">бюджетных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">5</p>
-                                            <p>платных<br>мест</p>
+                                            <p class="p-padded">платных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">55</p>
-                                            <p>минимальный<br>балл по конкурсу</p>
+                                            <p class="p-padded">минимальный<br>балл по конкурсу</p>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-1.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-1.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">01.04.02 Прикладная математика и информатика</p>
+
 
                                 </div>
 
@@ -287,35 +308,38 @@
                                 </div>
 
                                 <div class="groups-article-container">
-                                    <ul class="flexbox-between">
-                                        <li class="start-item">
-                                            <p class="slogan-number">Очная</p>
+                                    <ul class="groups-box">
+                                        <li class="special-item">
+                                            <p class="slogan-number-start">очная</p>
+                                            <p>форма</p>
 
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">2</p>
-                                            <p>года<br>обучения</p>
+                                            <p class="p-padded">года<br>обучения</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">7</p>
-                                            <p>бюджетных<br>мест</p>
+                                            <p class="p-padded">бюджетных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">5</p>
-                                            <p>платных<br>мест</p>
+                                            <p class="p-padded">платных<br>мест</p>
                                         </li>
 
                                         <li class="special-item">
-                                            <p class="slogan-number">130 000 ₽</p>
+                                            <p class="slogan-number-start">130 000 ₽</p>
+                                            <p>за семестр</p>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-2.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-2.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">02.04.03 Математическое обеспечение и администрирование
                                         информационных систем
                                     </p>
@@ -329,92 +353,104 @@
                             <section class="group-section-blue">
                                 <div class="groups-article-container">
                                     <p class="group-code">09.04.00</p>
-                                    <a class="popup-open" href="#">Информатика и вычислительная техника</a>
+                                    <h2 class="group-article">Информатика и вычислительная техника</h2>
                                 </div>
 
                                 <div class="groups-article-container">
-                                    <ul class="flexbox-between">
+                                    <ul class="groups-box">
                                         <li class="special-item">
-                                            <p class="slogan-number">Очная</p>
+                                            <p class="slogan-number-start">очная</p>
+                                            <p>форма</p>
 
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">2</p>
-                                            <p>года<br>обучения</p>
+                                            <p class="p-padded">года<br>обучения</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">77</p>
-                                            <p>бюджетных<br>мест</p>
+                                            <p class="p-padded">бюджетных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">10</p>
-                                            <p>платных<br>мест</p>
+                                            <p class="p-padded">платных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
-                                            <p>вступительные испытания</p>
+                                            <p class="p-padded">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-3.svg" alt="Градиент-линия">
-                                    <p class="studies-text">09.04.01 Информатика и вычислительная техника</p>
+                                <div class="studies-container-wrapper-one">
+
+                                    <div class="studies-container">
+                                        <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-3.svg"
+                                            alt="Градиент-линия">
+                                        <a class="popup-open" href="#">09.04.01 Информатика и вычислительная техника
+                                        </a>
+                                    </div>
+
+                                    <div class="studies-container">
+                                        <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-4.svg"
+                                            alt="Градиент-линия">
+                                        <p class="studies-text">09.04.02 Информационные системы и технологии</p>
+                                    </div>
+
+                                    <div class="studies-container">
+                                        <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-5.svg"
+                                            alt="Градиент-линия">
+                                        <p class="studies-text">09.04.03 Прикладная информатика</p>
+                                    </div>
+
+                                    <div class="studies-container">
+                                        <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-5.svg"
+                                            alt="Градиент-линия">
+                                        <p class="studies-text">09.04.04 Программная инженерия</p>
+                                    </div>
                                 </div>
 
-                                <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-4.svg" alt="Градиент-линия">
-                                    <p class="studies-text">09.04.02 Информационные системы и технологии</p>
-                                </div>
 
-                                <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-5.svg" alt="Градиент-линия">
-                                    <p class="studies-text">09.04.03 Прикладная информатика</p>
-                                </div>
-
-                                <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-5.svg" alt="Градиент-линия">
-                                    <p class="studies-text">09.04.04 Программная инженерия</p>
-                                </div>
-
-
-                                <ul class="flexbox-between">
-                                    <li class="special-item">
+                                <ul class="groups-box">
+                                    <li class="special-item-violet">
                                         <!-- Тут будет специальный класс для заочки -->
-                                        <p class="slogan-number">Заочная</p>
+                                        <p class="slogan-number-start-violet">заочная</p>
+                                        <p>форма</p>
 
                                     </li>
 
                                     <li class="groups-item">
-                                        <p class="slogan-number">2.5</p>
-                                        <p>года<br>обучения</p>
+                                        <p class="slogan-number-violet">2.5</p>
+                                        <p class="p-padded">года<br>обучения</p>
                                     </li>
 
                                     <li class="groups-item">
                                         <p class="slogan-number">21</p>
-                                        <p>бюджетных<br>мест</p>
+                                        <p class="p-padded">бюджетных<br>мест</p>
                                     </li>
 
                                     <li class="groups-item">
                                         <p class="slogan-number">10</p>
-                                        <p>платных<br>мест</p>
+                                        <p class="p-padded">платных<br>мест</p>
                                     </li>
 
                                     <li class="groups-item">
-                                        <p>вступительные испытания</p>
+                                        <p class="p-padded">вступительные испытания</p>
                                     </li>
                                 </ul>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-5.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-5.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">09.04.01 Информатика и вычислительная техника</p>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-5.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-5.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">09.04.03 Прикладная информатика</p>
                                 </div>
 
@@ -435,89 +471,103 @@
                                 </div>
 
                                 <div class="groups-article-container">
-                                    <ul class="flexbox-between">
+                                    <ul class="groups-box">
                                         <li class="special-item">
-                                            <p class="slogan-number">Очная</p>
+                                            <p class="slogan-number-start">очная</p>
+                                            <p>форма</p>
 
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">2</p>
-                                            <p>года<br>обучения</p>
+                                            <p class="p-padded">года<br>обучения</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">73</p>
-                                            <p>бюджетных<br>мест</p>
+                                            <p class="p-padded">бюджетных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">5</p>
-                                            <p>платных<br>мест</p>
+                                            <p class="p-padded">платных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
-                                            <p>вступительные испытания</p>
+                                            <p class="p-padded">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-6.svg" alt="Градиент-линия">
-                                    <p class="studies-text">11.04.01 Радиотехника</p>
-                                </div>
 
-                                <div class="studies-container">
-                                    <div class="rectangle-container">
-                                        <img src="./images/rectangles-groups/Rectangle-g-7.svg" alt="Градиент-линия">
-                                        <img src="./images/rectangles-groups/Rectangle-g-6.svg" alt="Градиент-линия">
+                                <div class="studies-container-wrapper-two">
+                                    <div class="studies-container">
+                                        <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-6.svg"
+                                            alt="Градиент-линия">
+                                        <p class="studies-text">11.04.01 Радиотехника</p>
                                     </div>
 
-                                    <p class="studies-text">11.04.02 Инфокоммуникационные технологии и системы связи</p>
+                                    <div class="studies-container">
+                                        <div class="rectangle-container">
+                                            <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-7.svg"
+                                                alt="Градиент-линия">
+                                            <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-6.svg"
+                                                alt="Градиент-линия">
+                                        </div>
+
+                                        <p class="studies-text">11.04.02 Инфокоммуникационные технологии и системы связи
+                                        </p>
+                                    </div>
+
+                                    <div class="studies-container">
+                                        <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-6.svg"
+                                            alt="Градиент-линия">
+                                        <p class="studies-text">11.04.03 Конструирование и технология электронных
+                                            средства
+                                        </p>
+                                    </div>
+
+                                    <div class="studies-container">
+                                        <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-8.svg"
+                                            alt="Градиент-линия">
+                                        <p class="studies-text">11.04.04 Электроника и наноэлектроника</p>
+                                    </div>
                                 </div>
 
-                                <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-6.svg" alt="Градиент-линия">
-                                    <p class="studies-text">11.04.03 Конструирование и технология электронных средства
-                                    </p>
-                                </div>
 
-                                <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-8.svg" alt="Градиент-линия">
-                                    <p class="studies-text">11.04.04 Электроника и наноэлектроника</p>
-                                </div>
-
-
-                                <ul class="flexbox-between">
-                                    <li class="special-item">
+                                <ul class="groups-box">
+                                    <li class="special-item-violet">
                                         <!-- Тут будет специальный класс для заочки -->
-                                        <p class="slogan-number">Заочная</p>
+                                        <p class="slogan-number-start-violet">заочная</p>
+                                        <p>форма</p>
 
                                     </li>
 
                                     <li class="groups-item">
-                                        <p class="slogan-number">2.5</p>
-                                        <p>года<br>обучения</p>
+                                        <p class="slogan-number-violet">2.5</p>
+                                        <p class="p-padded">года<br>обучения</p>
                                     </li>
 
                                     <li class="groups-item">
                                         <p class="slogan-number">15</p>
-                                        <p>бюджетных<br>мест</p>
+                                        <p class="p-padded">бюджетных<br>мест</p>
                                     </li>
 
                                     <li class="groups-item">
                                         <p class="slogan-number">5</p>
-                                        <p>платных<br>мест</p>
+                                        <p class="p-padded">платных<br>мест</p>
                                     </li>
 
                                     <li class="groups-item">
-                                        <p>вступительные испытания</p>
+                                        <p class="p-padded">вступительные испытания</p>
                                     </li>
                                 </ul>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-9.svg" alt="Градиент-линия">
-                                    <p class="studies-text">11.04.02 Инфокоммуникационные технологии и системы связи</p>
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-9.svg"
+                                        alt="Градиент-линия">
+                                    <p class="studies-text">11.04.02 Инфокоммуникационные технологии и системы связи
+                                    </p>
                                 </div>
 
                             </section>
@@ -527,56 +577,62 @@
 
                             <section class="group-section-blue">
                                 <div class="groups-article-container">
-                                    <h2 class="group-article">Фотоника, приборостроение, оптические и биотехнические
+                                    <h2 class="group-article-special">Фотоника, приборостроение, оптические и
+                                        биотехнические
                                         системы и технологии
                                     </h2>
                                 </div>
 
                                 <div class="groups-article-container">
-                                    <ul class="flexbox-between">
+                                    <ul class="groups-box">
                                         <li class="special-item">
-                                            <p class="slogan-number">Очная</p>
+                                            <p class="slogan-number-start">очная</p>
+                                            <p>форма</p>
 
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">2</p>
-                                            <p>года<br>обучения</p>
+                                            <p class="p-padded">года<br>обучения</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">89</p>
-                                            <p>бюджетных<br>мест</p>
+                                            <p class="p-padded">бюджетных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">5</p>
-                                            <p>платных<br>мест</p>
+                                            <p class="p-padded">платных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
-                                            <p>вступительные испытания</p>
+                                            <p class="p-padded">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-10.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-10.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">12.04.01 Приборостроение</p>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-10.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-10.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">12.04.02 Оптотехника</p>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-10.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-10.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">12.04.04 Биотехнические системы и технологии</p>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-10.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-10.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">12.04.05 Лазерная техника и лазерные технологии </p>
                                 </div>
 
@@ -590,11 +646,11 @@
 
                             <section class="group-section-yellow">
                                 <div class="groups-article-container">
-                                    <h2 class="group-article">Экономика и управление</h2>
+                                    <h2 class="group-article-special">Экономика и управление</h2>
                                 </div>
 
                                 <div class="groups-article-container">
-                                    <ul class="flexbox-between">
+                                    <ul class="groups-box">
                                         <li class="special-item">
                                             <div class="special-gold-item">
                                                 <p>Очная<br>
@@ -606,33 +662,35 @@
 
                                         <li class="groups-item">
                                             <p class="slogan-number">2</p>
-                                            <p>года<br>обучения</p>
+                                            <p class="p-padded">года<br>обучения</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">0</p>
-                                            <p>бюджетных<br>мест</p>
+                                            <p class="p-padded">бюджетных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">40</p>
-                                            <p>платных<br>мест</p>
+                                            <p class="p-padded">платных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
-                                            <p>вступительные испытания</p>
+                                            <p class="p-padded">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-11.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-11.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">38.04.01 Экономика</p>
                                     <div class="special-gold-item">+</div>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-11.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-11.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">38.04.02 Менеджмент</p>
                                     <div class="special-gold-item">+</div>
                                 </div>
@@ -647,11 +705,11 @@
 
                             <section class="group-section-yellow">
                                 <div class="groups-article-container">
-                                    <h2 class="group-article">Юриспруденция</h2>
+                                    <h2 class="group-article-special">Юриспруденция</h2>
                                 </div>
 
                                 <div class="groups-article-container">
-                                    <ul class="flexbox-between">
+                                    <ul class="groups-box">
                                         <li class="special-item">
                                             <p>Очная
                                                 <div class="special-gold-item">
@@ -663,27 +721,28 @@
 
                                         <li class="groups-item">
                                             <p class="slogan-number">2</p>
-                                            <p>года<br>обучения</p>
+                                            <p class="p-padded">года<br>обучения</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">6</p>
-                                            <p>бюджетных<br>мест</p>
+                                            <p class="p-padded">бюджетных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
                                             <p class="slogan-number">70</p>
-                                            <p>платных<br>мест</p>
+                                            <p class="p-padded">платных<br>мест</p>
                                         </li>
 
                                         <li class="groups-item">
-                                            <p>вступительные испытания</p>
+                                            <p class="p-padded">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="studies-container">
-                                    <img src="./images/rectangles-groups/Rectangle-g-12.svg" alt="Градиент-линия">
+                                    <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-12.svg"
+                                        alt="Градиент-линия">
                                     <p class="studies-text">40.04.01 Юриспруденция</p>
                                     <div class="special-gold-item">+</div>
                                 </div>
@@ -692,7 +751,7 @@
                             </section>
 
                             <div class="button-container">
-                                <a class="button-group" href="#">показать все</a>
+                                <a class="button-group-grey" href="#">показать все</a>
                             </div>
 
 
@@ -706,35 +765,38 @@
                                 <div class="popup-container">
 
                                     <div class="popup">
-                                        <a class="popup-close" href="#">X</a>
+                                        <a class="popup-close" href="#"><img class="exit-icon" src="./images/exit.svg"
+                                                alt=""></a>
                                         <div class="modal-groups-container">
-                                            <p>УГС 09.04.00 Информатика и вычислительная техника
-                                            </p>
-                                            <ul class="flexbox-between">
-
-                                                <li class="start-item">
-                                                    <p class="slogan-number">Очная</p>
+                                            <div class="modal-code start-item">
+                                                <p>УГС 09.04.00 Информатика и вычислительная техника
+                                                </p>
+                                            </div>
+                                            <ul class="groups-box-modal">
+                                                <li class="special-item">
+                                                    <p class="slogan-number-start">очная</p>
+                                                    <p>форма</p>
 
                                                 </li>
 
                                                 <li class="groups-item">
                                                     <p class="slogan-number">2</p>
-                                                    <p>года<br>обучения</p>
+                                                    <p class="p-padded">года<br>обучения</p>
                                                 </li>
 
                                                 <li class="groups-item">
-                                                    <p class="slogan-number">77</p>
-                                                    <p>бюджетных<br>мест</p>
+                                                    <p class="slogan-number">9</p>
+                                                    <p class="p-padded">бюджетных<br>мест</p>
                                                 </li>
 
                                                 <li class="groups-item">
-                                                    <p class="slogan-number">10</p>
-                                                    <p>платных<br>мест</p>
+                                                    <p class="slogan-number">5</p>
+                                                    <p class="p-padded">платных<br>мест</p>
                                                 </li>
 
-                                                <li class="special-item">
+                                                <li class="groups-item">
                                                     <p class="slogan-number">55</p>
-                                                    <p>минимальный<br>балл по конкурсу</p>
+                                                    <p class="p-padded">минимальный<br>балл по конкурсу</p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -760,7 +822,7 @@
                                                             <div class="accordion-mod-header">
                                                                 <div class="accordion-modal-wrapper">
                                                                     <p class="modal-date">01.04.01</p><br>
-                                                                    <p class="modal-code">код направления</p>
+                                                                    <p class="modal-code-frame">код направления</p>
                                                                 </div>
                                                                 <p class="modal-caption">Информатика и вычислительная
                                                                     техника</p>
@@ -786,7 +848,7 @@
                                                             <div class="accordion-mod-header">
                                                                 <div class="accordion-modal-wrapper">
                                                                     <p class="modal-date">09.04.02</p><br>
-                                                                    <p class="modal-code">код направления</p>
+                                                                    <p class="modal-code-frame">код направления</p>
                                                                 </div>
                                                                 <p class="modal-caption">Информационные системы и
                                                                     технологии</p>
@@ -796,11 +858,11 @@
                                                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                                         aria-labelledby="flush-headingTwo"
                                                         data-bs-parent="#accordionFlushExample">
-                                                        <div class="accordion-body">
+                                                        <div class="accordion-body-modal">
                                                             <div class="ed-program">
                                                                 <div class="ed-program-container">
                                                                     <p class="p-small">Образовательная программа</p>
-                                                                    <p class="p-medium">Мультимедиа технологии</p>
+                                                                    <p class="p-medium-modal">Мультимедиа технологии</p>
                                                                 </div>
                                                                 <img src="./images/modal/playscreen-small.svg"
                                                                     alt="экран со знаком play">
@@ -811,7 +873,7 @@
                                                             <div class="ed-program">
                                                                 <div class="ed-program-container">
                                                                     <p class="p-small">Образовательная программа</p>
-                                                                    <p class="p-medium">Информационная сфера</p>
+                                                                    <p class="p-medium-modal">Информационная сфера</p>
                                                                 </div>
                                                                 <img src="./images/modal/shield.svg"
                                                                     alt="экран со знаком play">
@@ -832,7 +894,7 @@
                                                             <div class="accordion-mod-header">
                                                                 <div class="accordion-modal-wrapper">
                                                                     <p class="modal-date">09.04.03</p><br>
-                                                                    <p class="modal-code">код направления</p>
+                                                                    <p class="modal-code-frame">код направления</p>
                                                                 </div>
                                                                 <p class="modal-caption">Прикладная информатика</p>
                                                             </div>
@@ -860,7 +922,7 @@
                                                             <div class="accordion-mod-header">
                                                                 <div class="accordion-modal-wrapper">
                                                                     <p class="modal-date">09.04.04</p><br>
-                                                                    <p class="modal-code">код направления</p>
+                                                                    <p class="modal-code-frame">код направления</p>
                                                                 </div>
                                                                 <p class="modal-caption">Программная инженерия</p>
                                                             </div>
@@ -903,20 +965,22 @@
                                                             aria-labelledby="flush-headingFive"
                                                             data-bs-parent="#accordionFlushExample">
                                                             <div class="accordion-body">
-                                                                <p> Программа вступительного испытания,
+                                                                <p class="p-acc"> Программа вступительного испытания,
                                                                     содержит вопросы, охватывающие весь объем знаний,
                                                                     полученных
                                                                     бакалавром, в соответствии со стандартом высшего
                                                                     образования
                                                                     по направлению.</p>
 
-                                                                <p>Конечной целью вступительного испытания является
+                                                                <p class="p-acc">Конечной целью вступительного испытания
+                                                                    является
                                                                     определение
                                                                     уровня знаний и компетенций поступающего по
                                                                     100-бальной
                                                                     шкале.</p>
 
-                                                                <p>Экзаменационное задание содержит три теоретических
+                                                                <p class="p-acc">Экзаменационное задание содержит три
+                                                                    теоретических
                                                                     вопроса
                                                                     из предложенного ниже списка.</p>
                                                             </div>

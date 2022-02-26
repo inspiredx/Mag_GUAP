@@ -5,12 +5,35 @@
 @import url("./frame-5.css");
 @import url("./adaptive.css");
 @font-face {
-  font-family: "Roboto-Black";
-  font-style: normal;
+  font-family: 'Roboto';
+  src: url("Roboto-Black.woff2") format("woff2");
   font-weight: 900;
-  src: url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-style: normal;
   font-display: swap;
-  src: local("Roboto-Black");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("Roboto-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("Roboto-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 html {
@@ -18,7 +41,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   background-color: white;
   margin: 0;
   display: -webkit-box;

@@ -44,6 +44,14 @@
   color: #636363;
   font-weight: 400;
   margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.popup-open:hover {
+  color: #636363;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 .modal-date {

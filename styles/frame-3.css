@@ -388,4 +388,11 @@
   background: #F4F8FF;
   padding-top: 47px;
 }
+
+.control-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+}
 /*# sourceMappingURL=frame-3.css.map */

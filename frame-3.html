@@ -72,13 +72,12 @@
 
                         <fieldset class="checkbox">
                             <legend class="checkbox-title">ИНСТИТУТ / ФАКУЛЬТЕТ</legend>
-                            <img src="./images/Line-4.svg" alt="Линия">
+                            <img class="rectangle-padded" src="./images/Line-4.svg" alt="Линия">
                             <ul class="checkbox-list">
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="aero">
                                         <div class="control-text">
-
                                             Институт аэрокосмических приборов и систем
                                         </div>
                                     </label>
@@ -88,8 +87,9 @@
 
                                 <li class="checkbox-item">
                                     <label class="control">
+
+                                        <input class="control-input" type="checkbox" name="radio">
                                         <div class="control-text">
-                                            <input class="control-input" type="checkbox" name="radio">
                                             Институт радиотехники, электроники и связи
                                         </div>
                                     </label>
@@ -100,7 +100,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="robo">
-                                        Институт инновационных технологий в электромеханике и робототехнике
+                                        <div class="control-text">
+                                            Институт инновационных технологий в электромеханике и робототехнике
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-3.svg"
                                         alt="Линия-градиент">
@@ -109,7 +111,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="progr">
-                                        Институт вычислительных систем и программирования
+                                        <div class="control-text">
+                                            Институт вычислительных систем и программирования
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-4.svg"
                                         alt="Линия-градиент">
@@ -118,7 +122,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="infoprotect">
-                                        Институт информационных систем и защиты информации
+                                        <div class="control-text">
+                                            Институт информационных систем и защиты информации
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-5.svg"
                                         alt="Линия-градиент">
@@ -127,7 +133,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="fundamental">
-                                        Институт фундаментальной подготовки и технологических инноваций
+                                        <div class="control-text">
+                                            Институт фундаментальной подготовки<br> и технологических инноваций
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-6.svg"
                                         alt="Линия-градиент">
@@ -136,7 +144,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="human">
-                                        Гуманитарный факультет
+                                        <div class="control-text">
+                                            Гуманитарный факультет
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-7.svg"
                                         alt="Линия-градиент">
@@ -145,7 +155,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="business">
-                                        Институт технологий предпринимательства
+                                        <div class="control-text">
+                                            Институт технологий предпринимательства
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-8.svg"
                                         alt="Линия-градиент">
@@ -154,7 +166,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="law">
-                                        Юридический факультет
+                                        <div class="control-text">
+                                            Юридический факультет
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-9.svg"
                                         alt="Линия-градиент">
@@ -163,7 +177,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="distance">
-                                        Институт непрерывного и дистанционного образования
+                                        <div class="control-text">
+                                            Институт непрерывного и дистанционного образования
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-10.svg"
                                         alt="Линия-градиент">
@@ -174,20 +190,24 @@
                         <!-- Форма обучения -->
 
                         <fieldset class="checkbox">
-                            <legend class="checkbox-title">ФОРМА ОБУЧЕНИЯ</legend>
+                            <legend class="checkbox-title-padded">ФОРМА ОБУЧЕНИЯ</legend>
                             <img src="./images/Line-3.svg" alt="Линия">
                             <ul class="checkbox-list">
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="fulltime">
-                                        Очная
+                                        <div class="checkbox-point">
+                                            Очная
+                                        </div>
                                     </label>
                                 </li>
 
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="extra">
-                                        Заочная
+                                        <div class="checkbox-point">
+                                            Заочная
+                                        </div>
                                     </label>
                                 </li>
 
@@ -197,20 +217,24 @@
                         <!-- Области науки -->
 
                         <fieldset class="checkbox">
-                            <legend class="checkbox-title">ОБЛАСТИ НАУКИ</legend>
+                            <legend class="checkbox-title-padded">ОБЛАСТИ НАУКИ</legend>
                             <img src="./images/Line-5.svg" alt="Линия">
                             <ul class="checkbox-list">
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="tech">
-                                        технические
+                                        <div class="checkbox-point">
+                                            технические
+                                        </div>
                                     </label>
                                 </li>
 
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="socio">
-                                        социо-гуманитарные
+                                        <div class="checkbox-point">
+                                            социо-гуманитарные
+                                        </div>
                                     </label>
                                 </li>
 
@@ -251,7 +275,7 @@
 
 
 
-                            <img src="./images/Line-2.svg" alt="Линия">
+                            <img class="rectangle-padded" src="./images/Line-2.svg" alt="Линия">
 
                             <!-- Первое направление -->
 
@@ -384,7 +408,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last1">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -497,7 +521,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last2">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -562,7 +586,7 @@
                                     </li>
 
                                     <li class="groups-item">
-                                        <p class="p-padded">вступительные испытания</p>
+                                        <p class="p-last3">вступительные испытания</p>
                                     </li>
                                 </ul>
 
@@ -610,7 +634,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last4">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -679,7 +703,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last5">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -738,7 +762,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last5">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>

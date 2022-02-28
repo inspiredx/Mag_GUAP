@@ -21,6 +21,14 @@
   margin: 0;
   font-size: 20px;
   font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.checkbox-title-padded {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 70px;
 }
 
 .checkbox-line {
@@ -106,7 +114,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-right: 27px;
+  margin-right: 36px;
 }
 
 .groups-container {
@@ -147,7 +155,7 @@
 
 .group-section-blue {
   background: #F4F8FF;
-  margin-top: 52px;
+  margin-bottom: 44px;
   border-radius: 5px;
   width: 791px;
   -webkit-box-sizing: border-box;
@@ -268,6 +276,41 @@
   font-weight: 400;
 }
 
+.p-last1 {
+  padding-top: 7.5px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 18px;
+}
+
+.p-last2 {
+  padding-top: 7.5px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 43px;
+}
+
+.p-last3 {
+  padding-top: 7.5px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 23px;
+}
+
+.p-last4 {
+  padding-top: 7.5px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 43px;
+}
+
+.p-last5 {
+  padding-top: 7.5px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 27px;
+}
+
 .exit-icon {
   border: 1px solid #000000;
   border-radius: 50%;
@@ -282,5 +325,11 @@
   padding: calc((100% - 100% / 1.4142) / 2);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=frame-2.css.map */

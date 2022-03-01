@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -73,12 +72,14 @@
 
                         <fieldset class="checkbox">
                             <legend class="checkbox-title">ИНСТИТУТ / ФАКУЛЬТЕТ</legend>
-                            <img src="./images/Line-4.svg" alt="Линия">
+                            <img class="rectangle-padded" src="./images/Line-4.svg" alt="Линия">
                             <ul class="checkbox-list">
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="aero">
-                                        Институт аэрокосмических приборов и систем
+                                        <div class="control-text">
+                                            Институт аэрокосмических приборов и систем
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-1.svg"
                                         alt="Линия-градиент">
@@ -86,8 +87,11 @@
 
                                 <li class="checkbox-item">
                                     <label class="control">
+
                                         <input class="control-input" type="checkbox" name="radio">
-                                        Институт радиотехники, электроники и связи
+                                        <div class="control-text">
+                                            Институт радиотехники, электроники и связи
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-2.svg"
                                         alt="Линия-градиент">
@@ -96,7 +100,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="robo">
-                                        Институт инновационных технологий в электромеханике и робототехнике
+                                        <div class="control-text">
+                                            Институт инновационных технологий в электромеханике и робототехнике
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-3.svg"
                                         alt="Линия-градиент">
@@ -105,7 +111,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="progr">
-                                        Институт вычислительных систем и программирования
+                                        <div class="control-text">
+                                            Институт вычислительных систем и программирования
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-4.svg"
                                         alt="Линия-градиент">
@@ -114,7 +122,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="infoprotect">
-                                        Институт информационных систем и защиты информации
+                                        <div class="control-text">
+                                            Институт информационных систем и защиты информации
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-5.svg"
                                         alt="Линия-градиент">
@@ -123,7 +133,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="fundamental">
-                                        Институт фундаментальной подготовки и технологических инноваций
+                                        <div class="control-text">
+                                            Институт фундаментальной подготовки<br> и технологических инноваций
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-6.svg"
                                         alt="Линия-градиент">
@@ -132,7 +144,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="human">
-                                        Гуманитарный факультет
+                                        <div class="control-text">
+                                            Гуманитарный факультет
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-7.svg"
                                         alt="Линия-градиент">
@@ -141,7 +155,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="business">
-                                        Институт технологий предпринимательства
+                                        <div class="control-text">
+                                            Институт технологий предпринимательства
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-8.svg"
                                         alt="Линия-градиент">
@@ -150,7 +166,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="law">
-                                        Юридический факультет
+                                        <div class="control-text">
+                                            Юридический факультет
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-9.svg"
                                         alt="Линия-градиент">
@@ -159,7 +177,9 @@
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="distance">
-                                        Институт непрерывного и дистанционного образования
+                                        <div class="control-text">
+                                            Институт непрерывного и дистанционного образования
+                                        </div>
                                     </label>
                                     <img class="rectangle" src="./images/rectangles/Rectangle-10.svg"
                                         alt="Линия-градиент">
@@ -170,20 +190,24 @@
                         <!-- Форма обучения -->
 
                         <fieldset class="checkbox">
-                            <legend class="checkbox-title">ФОРМА ОБУЧЕНИЯ</legend>
+                            <legend class="checkbox-title-padded">ФОРМА ОБУЧЕНИЯ</legend>
                             <img src="./images/Line-3.svg" alt="Линия">
                             <ul class="checkbox-list">
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="fulltime">
-                                        Очная
+                                        <div class="checkbox-point">
+                                            Очная
+                                        </div>
                                     </label>
                                 </li>
 
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="extra">
-                                        Заочная
+                                        <div class="checkbox-point">
+                                            Заочная
+                                        </div>
                                     </label>
                                 </li>
 
@@ -193,20 +217,24 @@
                         <!-- Области науки -->
 
                         <fieldset class="checkbox">
-                            <legend class="checkbox-title">ОБЛАСТИ НАУКИ</legend>
+                            <legend class="checkbox-title-padded">ОБЛАСТИ НАУКИ</legend>
                             <img src="./images/Line-5.svg" alt="Линия">
                             <ul class="checkbox-list">
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="tech">
-                                        технические
+                                        <div class="checkbox-point">
+                                            технические
+                                        </div>
                                     </label>
                                 </li>
 
                                 <li class="checkbox-item">
                                     <label class="control">
                                         <input class="control-input" type="checkbox" name="socio">
-                                        социо-гуманитарные
+                                        <div class="checkbox-point">
+                                            социо-гуманитарные
+                                        </div>
                                     </label>
                                 </li>
 
@@ -247,7 +275,7 @@
 
 
 
-                            <img src="./images/Line-2.svg" alt="Линия">
+                            <img class="rectangle-padded" src="./images/Line-2.svg" alt="Линия">
 
                             <!-- Первое направление -->
 
@@ -380,7 +408,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last1">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -390,8 +418,8 @@
                                     <div class="studies-container">
                                         <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-3.svg"
                                             alt="Градиент-линия">
-                                        <a class="popup-open" href="#">09.04.01 Информатика и вычислительная техника
-                                        </a>
+                                        <a class="popup-open" href="#">09.04.01 Информатика и вычислительная
+                                            техникаа</a>
                                     </div>
 
                                     <div class="studies-container">
@@ -494,7 +522,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last2">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -559,7 +587,7 @@
                                     </li>
 
                                     <li class="groups-item">
-                                        <p class="p-padded">вступительные испытания</p>
+                                        <p class="p-last3">вступительные испытания</p>
                                     </li>
                                 </ul>
 
@@ -607,7 +635,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last4">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -653,8 +681,8 @@
                                     <ul class="groups-box">
                                         <li class="special-item">
                                             <div class="special-gold-item">
-                                                <p>Очная<br>
-                                                    Заочная+
+                                                <p class="p-gold">очная<br>
+                                                    заочная&nbsp;+
                                             </div>
                                             </p>
 
@@ -676,7 +704,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last5">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -685,14 +713,14 @@
                                     <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-11.svg"
                                         alt="Градиент-линия">
                                     <p class="studies-text">38.04.01 Экономика</p>
-                                    <div class="special-gold-item">+</div>
+                                    <div class="gold-item-symbol">+</div>
                                 </div>
 
                                 <div class="studies-container">
                                     <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-11.svg"
                                         alt="Градиент-линия">
                                     <p class="studies-text">38.04.02 Менеджмент</p>
-                                    <div class="special-gold-item">+</div>
+                                    <div class="gold-item-symbol">+</div>
                                 </div>
 
 
@@ -711,11 +739,13 @@
                                 <div class="groups-article-container">
                                     <ul class="groups-box">
                                         <li class="special-item">
-                                            <p>Очная
-                                                <div class="special-gold-item">
-                                                    Заочная+
-                                                </div>
-                                            </p>
+                                            <div class="special-regular-item">
+                                                <p class="p-regular">очная
+                                                    <div class="gold-item-single">
+                                                        заочная&nbsp;+
+                                                    </div>
+                                                </p>
+                                            </div>
 
                                         </li>
 
@@ -735,7 +765,7 @@
                                         </li>
 
                                         <li class="groups-item">
-                                            <p class="p-padded">вступительные испытания</p>
+                                            <p class="p-last5">вступительные испытания</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -744,19 +774,19 @@
                                     <img class="studies-img" src="./images/rectangles-groups/Rectangle-g-12.svg"
                                         alt="Градиент-линия">
                                     <p class="studies-text">40.04.01 Юриспруденция</p>
-                                    <div class="special-gold-item">+</div>
+                                    <div class="gold-item-symbol">+</div>
                                 </div>
 
 
                             </section>
 
                             <div class="button-container">
-                                <a class="button-group-grey" href="#">показать все</a>
+                                <a class="button-group-grey" href="#">показать все &nbsp; &#5167;</a>
                             </div>
 
 
 
-                            <!-- Модальное окно -->
+                            <!-- Модальное окно 2 -->
 
 
 

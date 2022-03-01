@@ -4,6 +4,7 @@
 @import url("./frame-4.css");
 @import url("./frame-5.css");
 @import url("./adaptive.css");
+@import url("./timeline.css");
 @font-face {
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Black.woff2") format("woff2");
@@ -120,6 +121,10 @@ p {
 }
 
 .page-article {
+  font-size: 30px;
+}
+
+.head-row {
   font-size: 30px;
 }
 
@@ -464,6 +469,11 @@ p {
   margin-bottom: 47px;
 }
 
+.block-date {
+  font-size: 70px;
+  white-space: nowrap;
+}
+
 .open-day-block-1 {
   height: 241px;
   background-image: url("../images/background/Rectangle-1.png");
@@ -487,10 +497,14 @@ p {
 
 .block-place {
   margin: 0;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .block-head-text {
   margin: 0;
+  white-space: nowrap;
+  font-size: 20px;
 }
 
 .howto-block {
@@ -519,5 +533,22 @@ p {
 .p-acc {
   padding-bottom: 10px;
   margin: 0 95px 0 107px;
+}
+
+.vertical-rectangle {
+  width: 4px;
+  margin-right: 23px;
+  margin-top: -5px;
+}
+
+.block-flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 48px;
+}
+
+.wide-line {
+  margin-left: 108px;
 }
 /*# sourceMappingURL=styles.css.map */

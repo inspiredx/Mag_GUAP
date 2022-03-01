@@ -10,6 +10,7 @@
 
 .link-nodec {
   text-decoration: none;
+  color: #005AAA;
 }
 
 .checkbox {
@@ -272,9 +273,10 @@
 }
 
 .button-group-blue {
-  border: 1px solid #000000;
+  border: 1px solid #005AAA;
   display: inline-block;
   padding: 7px 30px;
+  font-size: 14px;
   text-decoration: none;
   color: #FFFFFF;
   border-radius: 40px;

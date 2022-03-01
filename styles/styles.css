@@ -213,7 +213,25 @@ p {
 }
 
 .seo-item {
-  margin-right: 100px;
+  display: block;
+  margin-right: 169px;
+}
+
+.seo-flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-padding-start: 73px;
+          padding-inline-start: 73px;
+}
+
+.seo-description {
+  font-size: 14px;
+}
+
+.seo-article {
+  font-size: 24px;
+  white-space: nowrap;
 }
 
 .slogan-number {
@@ -550,5 +568,9 @@ p {
 
 .wide-line {
   margin-left: 108px;
+}
+
+.wrap-no {
+  white-space: nowrap;
 }
 /*# sourceMappingURL=styles.css.map */

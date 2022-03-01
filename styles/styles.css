@@ -225,7 +225,7 @@ p {
           padding-inline-start: 73px;
 }
 
-.seo-description {
+.font-14 {
   font-size: 14px;
 }
 
@@ -298,13 +298,19 @@ p {
 }
 
 .info-img {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  margin: auto;
 }
 
 .info-link {
   margin-top: auto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info-header {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 59px 0 88px 119px;
 }
 
 .op-container {
@@ -314,7 +320,7 @@ p {
 .op-column {
   list-style-type: none;
   margin-left: 0;
-  margin-right: 40px;
+  margin-right: 39px;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
   display: -webkit-box;
@@ -327,14 +333,20 @@ p {
 }
 
 .op-article-text {
+  font-size: 40px;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 67px;
   margin-left: 119px;
 }
 
+.op-description {
+  font-size: 20px;
+}
+
 .opn-item {
   margin-top: 0;
-  margin-bottom: 31px;
+  margin-bottom: 26px;
 }
 
 .info-item {
@@ -372,7 +384,7 @@ p {
           justify-content: space-between;
   min-width: 1184px;
   margin-left: 119px;
-  padding-bottom: 174px;
+  margin-bottom: 181px;
 }
 
 /* Скролбар */
@@ -440,6 +452,11 @@ p {
   margin-left: 119px;
 }
 
+.ed-header {
+  font-size: 40px;
+  font-weight: 500;
+}
+
 .ed-column {
   padding: 0;
   margin-left: 0;
@@ -451,6 +468,12 @@ p {
   margin-bottom: 10px;
 }
 
+.article-img {
+  position: relative;
+  right: 14px;
+  bottom: 16px;
+}
+
 .article-explosion {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,6 +483,8 @@ p {
 }
 
 .article-text {
+  font-size: 40px;
+  font-weight: 500;
   margin-top: 145px;
   margin-bottom: 0;
   margin-right: 150px;
@@ -539,12 +564,21 @@ p {
   list-style-type: none;
 }
 
-.name {
+.review-name {
+  font-size: 20px;
+  font-weight: 500;
   margin-top: 62px;
   margin-bottom: 8px;
+  color: #005aaa;
+}
+
+.link-blue {
+  color: #005aaa;
 }
 
 .p-review {
+  font-size: 20px;
+  font-weight: 400;
   margin-top: 38px;
 }
 

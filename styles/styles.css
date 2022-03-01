@@ -79,6 +79,15 @@ p {
   margin-right: 80px;
 }
 
+.menu-item-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 80px;
+}
+
 .main-flexbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,6 +172,7 @@ p {
       flex-wrap: wrap;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
+  font-weight: 500;
 }
 
 .flexbox-column {
@@ -185,6 +195,10 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.menu-item:nth-child(2) {
+  color: #005AAA;
 }
 
 .banner-seo {

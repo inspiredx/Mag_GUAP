@@ -1,5 +1,5 @@
 .timeline-container {
-  margin-top: 200px;
+  margin-top: 5px;
 }
 
 .timeline-list {
@@ -29,5 +29,100 @@
 .timeline-day {
   font-size: 12px;
   font-weight: 700;
+}
+
+.budget-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.budget-first-item {
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 15px;
+}
+
+.budget-regular-item {
+  margin-right: 15px;
+  max-width: 100px;
+}
+
+.budget-special-item {
+  margin-right: 31px;
+  max-width: 100px;
+}
+
+.budget-special-item-2 {
+  margin-right: 23px;
+  max-width: 100px;
+}
+
+.budget-special-item-3 {
+  margin-right: 142px;
+  max-width: 100px;
+}
+
+.budget-special-item-4 {
+  margin-right: 39px;
+  max-width: 100px;
+}
+
+.budget-special-item-5 {
+  margin-right: 29px;
+  max-width: 100px;
+}
+
+.budget-special-item-6 {
+  margin-right: 158px;
+  max-width: 100px;
+}
+
+.contract-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.contract-first-item {
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 9px;
+}
+
+.contract-regular-item {
+  margin-right: 623px;
+  max-width: 100px;
+}
+
+.target-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.target-first-item {
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 491px;
+}
+
+.target-regular-item {
+  margin-right: 19px;
+  max-width: 100px;
+}
+
+.target-special-item {
+  margin-right: 541px;
+  max-width: 100px;
 }
 /*# sourceMappingURL=timeline.css.map */

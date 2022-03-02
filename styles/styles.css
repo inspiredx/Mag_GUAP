@@ -297,6 +297,38 @@ p {
   max-height: 160px;
 }
 
+.op-block-date {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 43px;
+  padding-left: 21px;
+}
+
+.op-block-place {
+  font-size: 14px;
+  padding-left: 21px;
+  white-space: nowrap;
+  line-height: 3;
+}
+
+.op-block-text {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 21px 0 40px 21px;
+}
+
+.op-button {
+  border: 1px solid #005AAA;
+  display: inline-block;
+  padding: 7px 30px;
+  margin-left: 21px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 40px;
+  background: #005AAA;
+}
+
 .info-img {
   margin: auto;
 }
@@ -520,25 +552,25 @@ p {
 }
 
 .open-day-block-1 {
-  height: 308px;
+  height: 300px;
   width: 266px;
   background-image: url("../images/background/Rectangle-1.png");
 }
 
 .open-day-block-2 {
-  height: 308px;
+  height: 300px;
   width: 266px;
   background-image: url("../images/background/Rectangle-2.png");
 }
 
 .open-day-block-3 {
-  height: 308px;
+  height: 300px;
   width: 266px;
   background-image: url("../images/background/Rectangle-3.png");
 }
 
 .open-day-block-4 {
-  height: 308px;
+  height: 300px;
   width: 266px;
   background-image: url("../images/background/Rectangle-4.png");
   color: white;

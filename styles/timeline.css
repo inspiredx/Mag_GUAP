@@ -77,6 +77,7 @@
 }
 
 .budget-special-item-6 {
+  font-weight: 900;
   margin-right: 158px;
   max-width: 100px;
 }
@@ -101,6 +102,11 @@
   max-width: 100px;
 }
 
+.contract-special-item {
+  margin-right: 158px;
+  max-width: 100px;
+}
+
 .target-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,6 +128,7 @@
 }
 
 .target-special-item {
+  font-weight: 900;
   margin-right: 541px;
   max-width: 100px;
 }

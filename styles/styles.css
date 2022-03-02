@@ -389,6 +389,7 @@ p {
 
 /* Скролбар */
 ::-webkit-scrollbar {
+  margin-bottom: 100px;
   width: 12px;
   height: 10px;
 }
@@ -401,6 +402,7 @@ p {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #005aaa;
+  margin-top: 100px;
 }
 
 /*   */
@@ -421,7 +423,7 @@ p {
   overflow-y: hidden;
   scrollbar-color: red green;
   width: 1268px;
-  height: 300px;
+  height: 358px;
   white-space: nowrap;
   margin-bottom: 174px;
   display: block;
@@ -518,22 +520,26 @@ p {
 }
 
 .open-day-block-1 {
-  height: 241px;
+  height: 308px;
+  width: 266px;
   background-image: url("../images/background/Rectangle-1.png");
 }
 
 .open-day-block-2 {
-  height: 241px;
+  height: 308px;
+  width: 266px;
   background-image: url("../images/background/Rectangle-2.png");
 }
 
 .open-day-block-3 {
-  height: 241px;
+  height: 308px;
+  width: 266px;
   background-image: url("../images/background/Rectangle-3.png");
 }
 
 .open-day-block-4 {
-  height: 241px;
+  height: 308px;
+  width: 266px;
   background-image: url("../images/background/Rectangle-4.png");
   color: white;
 }

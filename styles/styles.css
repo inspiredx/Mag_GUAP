@@ -133,8 +133,13 @@ p {
   margin: 0 auto;
 }
 
+.main-frame-1 {
+  background-image: url("../images/clouds.png");
+  background-repeat-y: no-repeat;
+  background-position: top;
+}
+
 .mag-wraper {
-  background-image: url("../images/clouds.jpg");
   height: 636px;
 }
 
@@ -420,18 +425,18 @@ p {
 }
 
 /* Скролбар */
-::-webkit-scrollbar {
+.op-list::-webkit-scrollbar {
   margin-bottom: 100px;
   width: 12px;
   height: 10px;
 }
 
-::-webkit-scrollbar-track {
+.op-list::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb {
+.op-list::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #005aaa;
   margin-top: 100px;

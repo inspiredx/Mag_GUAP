@@ -212,7 +212,6 @@ p {
 }
 
 .banner-seo {
-  padding-bottom: 106px;
   margin-left: 80px;
   /* сумма с отступом агента - переделать */
 }
@@ -530,6 +529,14 @@ p {
   margin-left: 119px;
 }
 
+.article-text-howto {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 145px;
+  margin-bottom: 0;
+  margin-left: 152px;
+}
+
 .slogan-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -596,6 +603,7 @@ p {
 .howto-block {
   background-image: url("../images/background/howto-background.png");
   min-height: 514px;
+  position: relative;
 }
 
 .howto-list {
@@ -605,6 +613,63 @@ p {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   list-style-type: none;
+  height: 421px;
+}
+
+.howto-num {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 900;
+  color: #004f9f;
+  position: absolute;
+  top: 10px;
+  left: 26px;
+}
+
+.howto-item-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 76px;
+  left: 147px;
+  line-height: 1.4;
+}
+
+.howto-item-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 137px;
+  left: 409px;
+  line-height: 1.4;
+}
+
+.howto-item-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 157px;
+  right: 415px;
+  line-height: 1.4;
+}
+
+.howto-item-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 383px;
+  right: 203px;
+  line-height: 1.4;
+}
+
+.howto-text {
+  font-size: 20px;
+  padding-left: 10px;
+  text-overflow: wrap;
 }
 
 .review-name {
@@ -640,7 +705,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 48px;
+  margin-top: 48px;
 }
 
 .wide-line {

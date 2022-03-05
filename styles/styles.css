@@ -292,12 +292,6 @@ p {
   padding-top: 69px;
   margin-left: 119px;
   padding-right: 150px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 377px 377px 377px;
-      grid-template-columns: 377px 377px 377px;
-  -ms-grid-rows: 148px 148px 148px;
-      grid-template-rows: 148px 148px 148px;
   max-height: 160px;
 }
 
@@ -382,7 +376,7 @@ p {
 
 .opn-item {
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 
 .info-item {

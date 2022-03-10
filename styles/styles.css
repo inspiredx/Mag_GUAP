@@ -132,14 +132,18 @@ p {
   margin: 0 auto;
 }
 
-.main-frame-1 {
-  background-image: url("../images/clouds.png");
-  background-repeat-y: no-repeat;
-  background-position: top;
+.accordion-gradient .accordion-item {
+  background: #F4F8FF;
+}
+
+.accordion-gradient .accordion-button {
+  background: #F4F8FF;
 }
 
 .mag-wraper {
   height: 636px;
+  background-image: url(../images/clouds.png);
+  background-size: cover;
 }
 
 .flexbox {
